@@ -1,0 +1,13 @@
+manual/
+.claude/settings.local.json
+.claude/credentials.local.json
+.DS_Store
+.claude
+CLAUDE.md
+
+# Ejercicios: solo se versiona el código fuente, no los binarios compilados
+# (linux/mac generan un ejecutable sin extensión con el mismo nombre del .cpp)
+ejercicios/*
+!ejercicios/*.cpp
+!ejercicios/*.h
+!ejercicios/*.hpp
