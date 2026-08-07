@@ -4,6 +4,7 @@ manual/
 .DS_Store
 .claude
 CLAUDE.md
+.vscode/
 
 # Ejercicios: solo se versiona el código fuente, no los binarios compilados
 # (linux/mac generan un ejecutable sin extensión con el mismo nombre del .cpp)
