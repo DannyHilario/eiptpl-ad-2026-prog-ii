@@ -1,6 +1,6 @@
 # Laboratorio de repaso — Programación I
 
-*Siguiente: [1.1 Funciones](../etapa-1-funciones/1.1-funciones.md)*
+*Anterior: [Repaso: estructuras de control y ciclos](01-estructuras-de-control.md) — Siguiente: [1.1 Funciones](../etapa-1-funciones/1.1-funciones.md)*
 
 3 ejercicios para repasar antes de empezar Funciones. Ninguno es puramente
 secuencial — combinan `if`/`switch` con al menos un ciclo. No hay solución aquí a
@@ -27,33 +27,7 @@ Total reprobados: 1
 Porcentaje de aprobacion: 66.67%
 ```
 
-## 2. Años bisiestos en lote
-
-Pide años uno por uno; el usuario escribe `-1` cuando quiera terminar (ese es tu
-centinela para el ciclo). Para cada año que no sea el centinela, indica si es
-bisiesto o no. Un año es bisiesto si es divisible entre 4, y además (no es
-divisible entre 100, o sí es divisible entre 400) — vas a necesitar combinar `&&`,
-`||` y paréntesis en una sola condición.
-
-**Ejemplo de ejecución:**
-```
-Escribe un anio (-1 para terminar): 2024
-2024 es bisiesto
-
-Escribe un anio (-1 para terminar): 2023
-2023 no es bisiesto
-
-Escribe un anio (-1 para terminar): 1900
-1900 no es bisiesto
-
-Escribe un anio (-1 para terminar): 2000
-2000 es bisiesto
-
-Escribe un anio (-1 para terminar): -1
-Programa terminado.
-```
-
-## 3. Cajero con tres cajas
+## 2. Cajero con tres cajas
 
 Menú con 4 opciones: Caja 1, Caja 2, Caja 3, y Finalizar turno. Cada vez que el
 usuario elige una caja, pide el monto cobrado y lo acumula en el total de esa caja
