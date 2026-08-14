@@ -69,3 +69,49 @@ Caja 2: $30.00, 1 cliente
 Caja 3: $0.00, 0 clientes
 TOTAL: $100.00, 3 clientes
 ```
+
+## 3. Clasificador de temperaturas de la semana
+
+Pide cuántos días se van a registrar (`N`), validando que sea positivo (si el
+usuario da un valor ≤ 0, debe pedirlo de nuevo hasta que lo capture correcto). Para
+cada uno de los `N` días, lee la temperatura y valida que no esté por debajo del
+cero absoluto (-273.15 °C) — cualquier temperatura menor a ese límite físico es
+imposible y se debe rechazar y volver a pedir. Ya con una temperatura válida,
+clasifícala con `if`/`else if` en Frío (< 15 °C), Templado (15-25 °C) o Caluroso
+(> 25 °C), acumulando un contador por categoría. Al terminar de leer los `N` días,
+muestra el conteo de cada categoría y el promedio de temperatura de la semana.
+
+Dos validaciones numéricas obligatorias en este ejercicio:
+
+- **`N` positivo:** un número de días negativo o cero no tiene sentido para el
+  ciclo que va a leer temperaturas — hay que atraparlo *antes* de entrar al ciclo
+  principal, con su propio ciclo de validación que repita la pregunta hasta que el
+  valor sea mayor a 0.
+- **Cero absoluto (-273.15 °C):** es el límite físico real por debajo del cual no
+  puede existir ninguna temperatura en la escala Celsius (equivale a 0 Kelvin).
+  Cualquier lectura menor es un dato inválido, no solo un valor "poco común" — a
+  diferencia de Frío/Templado/Caluroso (que son categorías dentro de un rango
+  normal), esta validación descarta un valor físicamente imposible antes de
+  siquiera clasificarlo. Va dentro del ciclo de los `N` días, con su propio ciclo
+  de validación por cada temperatura leída.
+
+**Ejemplo de ejecución:**
+```
+Cuantos dias se van a registrar: -2
+ERROR. La cantidad de dias debe ser positiva
+Cuantos dias se van a registrar: 3
+
+Temperatura del dia 1: -300
+ERROR. Esa temperatura esta por debajo del cero absoluto (-273.15 C)
+Temperatura del dia 1: 12
+Temperatura del dia 2: 28
+Temperatura del dia 3: 9
+
+********* REPORTE DE LA SEMANA *********
+
+Dias frios: 2
+Dias templados: 0
+Dias calurosos: 1
+
+Temperatura promedio: 16.33
+```
