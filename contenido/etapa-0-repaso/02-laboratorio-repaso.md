@@ -70,7 +70,7 @@ Caja 3: $0.00, 0 clientes
 TOTAL: $100.00, 3 clientes
 ```
 
-## 3. Clasificador de temperaturas de la semana
+## 3. Clasificador de temperaturas
 
 Pide cuántos días se van a registrar (`N`), validando que sea positivo (si el
 usuario da un valor ≤ 0, debe pedirlo de nuevo hasta que lo capture correcto). Para
@@ -79,7 +79,7 @@ cero absoluto (-273.15 °C) — cualquier temperatura menor a ese límite físic
 imposible y se debe rechazar y volver a pedir. Ya con una temperatura válida,
 clasifícala con `if`/`else if` en Frío (< 15 °C), Templado (15-25 °C) o Caluroso
 (> 25 °C), acumulando un contador por categoría. Al terminar de leer los `N` días,
-muestra el conteo de cada categoría y el promedio de temperatura de la semana.
+muestra el conteo de cada categoría y el promedio de temperatura.
 
 Dos validaciones numéricas obligatorias en este ejercicio:
 
@@ -107,7 +107,7 @@ Temperatura del dia 1: 12
 Temperatura del dia 2: 28
 Temperatura del dia 3: 9
 
-********* REPORTE DE LA SEMANA *********
+********* REPORTE FINAL *********
 
 Dias frios: 2
 Dias templados: 0
