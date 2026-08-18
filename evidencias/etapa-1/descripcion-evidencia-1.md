@@ -36,8 +36,7 @@ Ambos deben compilar y ejecutarse sin errores en Dev-C++.
 
 - **Modalidad:** Individual. Cada alumno entrega sus propios archivos.
 - **Plataforma:** NEXUS. Carga tus dos archivos en la evidencia
-  *"1.1 - Evidencia de Aprendizaje 1: Aplicación de control de flujo y control
-  de ciclos"*.
+  *"1.2 - Dimensión 4. Aplicación: Laboratorio de Programas"*.
 - Nombra tus archivos de la siguiente forma:
 
 ```
