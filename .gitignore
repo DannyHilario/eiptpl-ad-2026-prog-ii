@@ -4,6 +4,7 @@ manual/
 .DS_Store
 .claude
 CLAUDE.md
+ALUMNOS.md
 .vscode/
 
 # Ejercicios: solo se versiona el código fuente, no los binarios compilados
