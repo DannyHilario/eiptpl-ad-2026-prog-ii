@@ -47,4 +47,5 @@ int main() {
     cout << " ********* REPORTE FINAL ********* "<< endl << endl <<endl;
     cout << " Aprobados: " << cantidad_aprobados << endl;
     cout << " Reprobados: " << cantidad_reprobados << endl;
+    return 0;
 }
