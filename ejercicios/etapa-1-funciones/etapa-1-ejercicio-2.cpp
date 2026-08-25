@@ -33,6 +33,8 @@ using namespace std;
  */
 
 double calcularISR(double sueldo_bruto); // Paso 1: Declaración de la función.
+double calcularSueldoBruto(double sueldo_diario);
+double calcularSueldoNeto(double sueldo_bruto, double isr);
 
 int main() {
 
@@ -52,9 +54,22 @@ int main() {
 
     } while(sueldo_diario < 0.01);
 
-    sueldo_bruto = sueldo_diario * 7;
+    sueldo_bruto = calcularSueldoBruto(sueldo_diario);
+    isr = calcularISR(sueldo_bruto);
+    sueldo_neto = calcularSueldoNeto(sueldo_bruto, isr);
 
-    /* CALCULO DEL ISR */
+    system("clear");
+    cout << "RECIBO SEMANAL" << endl << endl;
+    cout << "Sueldo diario: " << sueldo_diario << endl;
+    cout << "Sueldo bruto: " << sueldo_bruto << endl;
+    cout << "ISR: -" << isr << endl;
+    cout << "Sueldo neto: " << sueldo_neto << endl;
+
+}
+
+double calcularISR(double sueldo_bruto){
+
+    double isr;
 
     if(sueldo_bruto <= 750){
         // Rango 1
@@ -67,23 +82,18 @@ int main() {
     } else {
         // Rango 3
         isr = ((sueldo_bruto - 2340.01) * 0.2254) + 514;
-
     }
-    /* FIN DEL CALCULO DEL ISR */
-    
-    sueldo_neto = sueldo_bruto - isr;
 
+    return isr;
 
+}
 
+double calcularSueldoBruto(double sueldo_diario){
 
+    return (sueldo_diario * 7);
 
+}
 
-
-    system("clear");
-    cout << "RECIBO SEMANAL" << endl << endl;
-    cout << "Sueldo diario: " << sueldo_diario << endl;
-    cout << "Sueldo bruto: " << sueldo_bruto << endl;
-    cout << "ISR: -" << isr << endl;
-    cout << "Sueldo neto: " << sueldo_neto << endl;
-
+double calcularSueldoNeto(double sueldo_bruto, double isr){
+    return (sueldo_bruto - isr);
 }

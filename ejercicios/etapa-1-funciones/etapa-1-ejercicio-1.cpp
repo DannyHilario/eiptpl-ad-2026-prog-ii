@@ -2,57 +2,84 @@
 #include <limits> // Linea macOS
 using namespace std;
 
-void procesarSalarioEmpleado(float horas_trabajadas, float tarifa_x_hora);
+double calcularImpuesto(double sueldo_bruto); // Paso 1: Declaración de la función.
+double calcularSueldoBruto(double horas_trabajadas, double tarifa_x_hora);
+double calcularSueldoNeto(double sueldo_bruto, double impuesto);
 const float TASA_IMPUESTO = 0.16;
+const int HORAS_MAXIMAS_PERMITIDAS = 80;
 
 int main() {
 
-    float horas1, tarifa1;
-    float horas2, tarifa2;
-    float horas3, tarifa3;
-    system("clear");
+    int cantidad_empleados;
+    int i;
+    double tarifa_x_hora, horas_trabajadas;
+    double sueldo_bruto, impuesto, sueldo_neto;
 
-    cout << " ********* CALCULO DE NOMINA (3 EMPLEADOS) ********* " << endl << endl;
+    do{
+        system("clear");
+        cout << "Introduce la cantidad de empleados: " << endl;
+        cin >> cantidad_empleados;
 
-    // --- Empleado 1 ---
-    cout << "Empleado 1 - Horas trabajadas: ";
-    cin >> horas1;
-    cout << "Empleado 1 - Tarifa por hora: ";
-    cin >> tarifa1;
+        if(cantidad_empleados < 0){
+            cout << "ERROR! No hay trabajadores disponibles" << endl;
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Linea macOS
+            cin.get(); // Linea macOS
+        }
+    }while(cantidad_empleados < 0);
 
-    procesarSalarioEmpleado(horas1, tarifa1);
+    for(i = 1; i <= cantidad_empleados; i ++)
+    {
+        do{
+            system("clear");
+            cout << "Empleado " << i << endl;
+            cout << "Tarifa por hora: " << endl;
+            cin >> tarifa_x_hora;
 
-    // --- Empleado 2 ---
-    cout << "Empleado 2 - Horas trabajadas: ";
-    cin >> horas2;
-    cout << "Empleado 2 - Tarifa por hora: ";
-    cin >> tarifa2;
+            if(tarifa_x_hora < 0){
+                cout << "ERROR! La tarifa no puede ser negativa" << endl;
+                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Linea macOS
+                cin.get(); // Linea macOS
+            }
+        }while(tarifa_x_hora < 0);
 
-    procesarSalarioEmpleado(horas2, tarifa2);
+        // Regla de negocio: Un trabajador puede trabajar máximo 60 horas.
 
-    // --- Empleado 3 ---
-    cout << "Empleado 3 - Horas trabajadas: ";
-    cin >> horas3;
-    cout << "Empleado 3 - Tarifa por hora: ";
-    cin >> tarifa3;
+        do{
+            system("clear");
+            cout << "Empleado " << i << endl;
+            cout << "Horas trabajadas: " << endl;
+            cin >> horas_trabajadas;
 
-    procesarSalarioEmpleado(horas3, tarifa3);
+            if(horas_trabajadas < 0 || horas_trabajadas > HORAS_MAXIMAS_PERMITIDAS){
+                cout << "ERROR! Las horas trabajadas no son válidas. El máximo es 60 horas." << endl;
+                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Linea macOS
+                cin.get(); // Linea macOS
+            }
+        }while(horas_trabajadas < 0 || horas_trabajadas > HORAS_MAXIMAS_PERMITIDAS);
 
-    cout << " ********* FIN DEL REPORTE ********* " << endl;
+        sueldo_bruto = calcularSueldoBruto(horas_trabajadas, tarifa_x_hora);
+        impuesto = calcularImpuesto(sueldo_bruto);
+        sueldo_neto = calcularSueldoNeto(sueldo_bruto, impuesto);
+
+        system("clear");
+        cout << "Sueldo bruto: " << sueldo_bruto << endl;
+        cout << "Impuesto retenido: " << impuesto << endl;
+        cout << "Sueldo neto: " << sueldo_neto << endl << endl;
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Linea macOS
+        cin.get(); // Linea macOS
+    }
 
     return 0;
 }
 
-void procesarSalarioEmpleado(float horas_trabajadas, float tarifa_x_hora){
+double calcularSueldoBruto(double horas_trabajadas, double tarifa_x_hora){
+    return (horas_trabajadas * tarifa_x_hora);
+}
 
-    float sueldo_bruto, impuesto, sueldo_neto;
+double calcularImpuesto(double sueldo_bruto){
+    return (sueldo_bruto * TASA_IMPUESTO);
+}
 
-    sueldo_bruto = horas_trabajadas * tarifa_x_hora;
-    impuesto = sueldo_bruto * TASA_IMPUESTO;
-    sueldo_neto = sueldo_bruto - impuesto;
-
-    cout << "Sueldo bruto: " << sueldo_bruto << endl;
-    cout << "Impuesto retenido: " << impuesto << endl;
-    cout << "Sueldo neto: " << sueldo_neto << endl << endl;
-
+double calcularSueldoNeto(double sueldo_bruto, double impuesto){
+    return (sueldo_bruto - impuesto);
 }
