@@ -7,12 +7,14 @@ CLAUDE.md
 ALUMNOS.md
 .vscode/
 
-# Ejercicios: solo se versiona el código fuente, no los binarios compilados
-# (linux/mac generan un ejecutable sin extensión con el mismo nombre del .cpp)
-# Se admite cualquier nivel de subcarpetas (ej. ejercicios/etapa-0-repaso/).
+# Ejercicios: solo se versiona el código fuente, los README de cada etapa, y no
+# los binarios compilados (linux/mac generan un ejecutable sin extensión con el
+# mismo nombre del .cpp). Se admite cualquier nivel de subcarpetas
+# (ej. ejercicios/etapa-0-repaso/).
 ejercicios/*
 ejercicios/**/*
 !ejercicios/**/
 !ejercicios/**/*.cpp
 !ejercicios/**/*.h
 !ejercicios/**/*.hpp
+!ejercicios/**/README.md
