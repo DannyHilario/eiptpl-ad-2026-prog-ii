@@ -36,6 +36,22 @@ double calcularISR(double sueldo_bruto); // Paso 1: Declaración de la función.
 double calcularSueldoBruto(double sueldo_diario);
 double calcularSueldoNeto(double sueldo_bruto, double isr);
 
+const int DIAS_SEMANA = 7;
+
+const float LIMITE_INFERIOR_RANGO_1 = 0.01;
+const float LIMITE_SUPERIOR_RANGO_1 = 750.00;
+const float CUOTA_FIJA_RANGO_1 = 45.00;
+const float PORCENTAJE_EXCEDENTE_RANGO_1 = 0.0257;
+
+const float LIMITE_INFERIOR_RANGO_2 = 750.01;
+const float LIMITE_SUPERIOR_RANGO_2 = 2340.00;
+const float CUOTA_FIJA_RANGO_2 = 119.00;
+const float PORCENTAJE_EXCEDENTE_RANGO_2 = 0.12;
+
+const float LIMITE_INFERIOR_RANGO_3 = 2340.01;
+const float CUOTA_FIJA_RANGO_3 = 514.00;
+const float PORCENTAJE_EXCEDENTE_RANGO_3 = 0.2254;
+
 int main() {
 
     double sueldo_bruto, isr, sueldo_diario, sueldo_neto;
@@ -46,13 +62,13 @@ int main() {
         cout << "Introduce el sueldo diario del empleado: ";
         cin >> sueldo_diario;
         
-        if(sueldo_diario < 0.01) {
+        if(sueldo_diario < LIMITE_INFERIOR_RANGO_1) {
             cout << "ERROR! Salario no valido" << endl;
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Linea macOS
             cin.get(); // Linea macOS
         }
 
-    } while(sueldo_diario < 0.01);
+    } while(sueldo_diario < LIMITE_INFERIOR_RANGO_1);
 
     sueldo_bruto = calcularSueldoBruto(sueldo_diario);
     isr = calcularISR(sueldo_bruto);
@@ -71,17 +87,17 @@ double calcularISR(double sueldo_bruto){
 
     double isr;
 
-    if(sueldo_bruto <= 750){
+    if(sueldo_bruto <= LIMITE_SUPERIOR_RANGO_1){
         // Rango 1
-        isr = ((sueldo_bruto - 0.01) * 0.0257) + 45;
+        isr = ((sueldo_bruto - LIMITE_INFERIOR_RANGO_1) * PORCENTAJE_EXCEDENTE_RANGO_1) + CUOTA_FIJA_RANGO_1;
 
-    } else if (sueldo_bruto <= 2340 ) {
+    } else if (sueldo_bruto <= LIMITE_SUPERIOR_RANGO_2 ) {
         // Rango 2
-        isr = ((sueldo_bruto - 750.01) * 0.12) + 119;
+        isr = ((sueldo_bruto - LIMITE_INFERIOR_RANGO_2) * PORCENTAJE_EXCEDENTE_RANGO_2) + CUOTA_FIJA_RANGO_2;
 
     } else {
         // Rango 3
-        isr = ((sueldo_bruto - 2340.01) * 0.2254) + 514;
+        isr = ((sueldo_bruto - LIMITE_INFERIOR_RANGO_3) * PORCENTAJE_EXCEDENTE_RANGO_3) + CUOTA_FIJA_RANGO_3;
     }
 
     return isr;
@@ -90,7 +106,7 @@ double calcularISR(double sueldo_bruto){
 
 double calcularSueldoBruto(double sueldo_diario){
 
-    return (sueldo_diario * 7);
+    return (sueldo_diario * DIAS_SEMANA);
 
 }
 
