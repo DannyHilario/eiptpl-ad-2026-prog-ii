@@ -4,8 +4,8 @@ using namespace std;
 int main(){
 
     int Opcion; // Valor que debe estar entre 1 y 4.
-    float ef_cobrado; // Lo que cobró la caja seleccionada
-    float ef_caja1 = 0, ef_caja2 = 0, ef_caja3 = 0, ef_total = 0; // Acumuladores de cada caja
+    double ef_cobrado; // Lo que cobró la caja seleccionada
+    double ef_caja1 = 0, ef_caja2 = 0, ef_caja3 = 0, ef_total = 0; // Acumuladores de cada caja
     int con_caja1 = 0, con_caja2 = 0, con_caja3 = 0, con_total = 0; // Contadores por caja
     int num_transaccion = 0;
 

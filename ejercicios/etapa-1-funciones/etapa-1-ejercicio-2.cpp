@@ -38,19 +38,19 @@ double calcularSueldoNeto(double sueldo_bruto, double isr);
 
 const int DIAS_SEMANA = 7;
 
-const float LIMITE_INFERIOR_RANGO_1 = 0.01;
-const float LIMITE_SUPERIOR_RANGO_1 = 750.00;
-const float CUOTA_FIJA_RANGO_1 = 45.00;
-const float PORCENTAJE_EXCEDENTE_RANGO_1 = 0.0257;
+const double LIMITE_INFERIOR_RANGO_1 = 0.01;
+const double LIMITE_SUPERIOR_RANGO_1 = 750.00;
+const double CUOTA_FIJA_RANGO_1 = 45.00;
+const double PORCENTAJE_EXCEDENTE_RANGO_1 = 0.0257;
 
-const float LIMITE_INFERIOR_RANGO_2 = 750.01;
-const float LIMITE_SUPERIOR_RANGO_2 = 2340.00;
-const float CUOTA_FIJA_RANGO_2 = 119.00;
-const float PORCENTAJE_EXCEDENTE_RANGO_2 = 0.12;
+const double LIMITE_INFERIOR_RANGO_2 = 750.01;
+const double LIMITE_SUPERIOR_RANGO_2 = 2340.00;
+const double CUOTA_FIJA_RANGO_2 = 119.00;
+const double PORCENTAJE_EXCEDENTE_RANGO_2 = 0.12;
 
-const float LIMITE_INFERIOR_RANGO_3 = 2340.01;
-const float CUOTA_FIJA_RANGO_3 = 514.00;
-const float PORCENTAJE_EXCEDENTE_RANGO_3 = 0.2254;
+const double LIMITE_INFERIOR_RANGO_3 = 2340.01;
+const double CUOTA_FIJA_RANGO_3 = 514.00;
+const double PORCENTAJE_EXCEDENTE_RANGO_3 = 0.2254;
 
 int main() {
 
