@@ -10,6 +10,15 @@ el usuario (captura, validación, impresión del resultado) vive en `main()`. Es
 es a propósito: separa "qué calcula el programa" de "cómo se comunica con el
 usuario", que es la idea central de dividir en funciones.
 
+**Segunda regla de diseño:** si un dato se puede **derivar** de otro que ya se
+capturó, no se vuelve a pedir por separado — se calcula dentro de una función
+a partir del dato original. Pedir ambos como capturas independientes abre la
+puerta a que el usuario introduzca valores que no cuadran entre sí (por
+ejemplo, "días de retraso" como dato suelto, sin relación con los "días
+totales de uso" ya capturados). Esto aplica tanto a los ejercicios de este
+archivo como a los enunciados personalizados de la
+[Evidencia 1.1](../../evidencias/etapa-1/02-funciones/descripcion.md).
+
 ---
 
 ## Ejercicio 1 — Sueldo por hora con impuesto
@@ -54,62 +63,6 @@ evidencia 1 ("uso de constantes para el catálogo/tarifas").
 
 ## Ejercicio 3 — Facturación con descuento por volumen e IVA
 
-`etapa-1-ejercicio-3.cpp` — **propuesto, pendiente de resolver en clase**.
-
-### Enunciado
-
-Escribe un programa que calcule el total a pagar de una compra, considerando
-descuento por volumen (a mayor cantidad comprada, mayor porcentaje de descuento)
-e IVA.
-
-El programa debe leer, para una compra:
-
-- Cantidad de piezas compradas.
-- Precio unitario.
-
-Y calcular:
-
-1. **Subtotal** = cantidad × precio unitario.
-2. **Descuento**, según la siguiente tabla de rangos por cantidad de piezas:
-
-   | Piezas compradas | Descuento sobre el subtotal |
-   |---|---|
-   | 1 – 9 | 0% |
-   | 10 – 49 | 5% |
-   | 50 en adelante | 12% |
-
-3. **Base gravable** = subtotal − descuento.
-4. **IVA** = base gravable × 16%.
-5. **Total a pagar** = base gravable + IVA.
-
-### Prototipos sugeridos
-
-```cpp
-double calcularSubtotal(int cantidad, double precio_unitario);
-double calcularDescuento(int cantidad, double subtotal);
-double calcularIVA(double base_gravable);
-double calcularTotal(double base_gravable, double iva);
-```
-
-Nota que `calcularDescuento` necesita **tanto** la cantidad (para saber en qué
-rango cae) **como** el subtotal (para saber sobre qué monto aplicar el
-porcentaje) — son dos parámetros, no uno.
-
-### Requisitos técnicos
-
-- Constantes con nombre para los límites de rango, los porcentajes de descuento
-  y la tasa de IVA — nada de valores hardcode dentro de las funciones (mismo
-  criterio que se está corrigiendo en el ejercicio 2).
-- Validar que cantidad > 0 y precio unitario > 0 (repetir captura si no cumple,
-  igual que en los ejercicios 1 y 2).
-- Ninguna función de cálculo debe usar `cin` ni `cout` — solo `main()` interactúa
-  con el usuario.
-- Mostrar al final: subtotal, descuento aplicado, IVA y total a pagar.
-
-### Por qué este ejercicio
-
-Reutiliza el mismo patrón de "tabla de rangos con excedente/porcentaje" del
-ejercicio 2 (para reforzarlo en un contexto distinto: compras, no nómina), pero
-suma una función con **dos parámetros** que dependen entre sí (`cantidad` y
-`subtotal`), y una cadena de 4 funciones en vez de 3 — un paso más hacia programas
-con más funciones colaborando entre sí.
+Este ejercicio es el Programa 1 (común) de la
+[Evidencia 1.1](../../evidencias/etapa-1/02-funciones/descripcion.md) — el
+enunciado completo vive ahí, no aquí, para no tener dos fuentes de verdad.

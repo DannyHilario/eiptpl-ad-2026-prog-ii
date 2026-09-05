@@ -9,10 +9,10 @@ Cada alumno tiene un enunciado personalizado con un contexto distinto
 (inventarios, ventas, mediciones, tarifas, etc.), aunque todos comparten el
 mismo nivel de dificultad y los mismos requisitos técnicos. Busca el archivo
 con tu **matrícula y nombre** dentro de la carpeta
-[`01-dimension-4/`](01-dimension-4):
+[`alumnos/`](alumnos):
 
 ```
-01-dimension-4/{matricula}-{nombre-del-alumno}-etapa-1-dimension-4.md
+alumnos/{matricula}-{nombre-del-alumno}-etapa-1-dimension-4.md
 ```
 
 Ese archivo contiene el enunciado de tus dos programas (Programa 1 y
