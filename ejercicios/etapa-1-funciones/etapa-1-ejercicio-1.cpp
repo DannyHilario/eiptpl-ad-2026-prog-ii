@@ -5,7 +5,7 @@ using namespace std;
 double calcularImpuesto(double sueldo_bruto); // Paso 1: Declaración de la función.
 double calcularSueldoBruto(double horas_trabajadas, double tarifa_x_hora);
 double calcularSueldoNeto(double sueldo_bruto, double impuesto);
-const float TASA_IMPUESTO = 0.16;
+const double TASA_IMPUESTO = 0.16;
 const int HORAS_MAXIMAS_PERMITIDAS = 80;
 
 int main() {
