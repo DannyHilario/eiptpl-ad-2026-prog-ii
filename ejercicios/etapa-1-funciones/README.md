@@ -42,7 +42,7 @@ hardcode — es el ejemplo a seguir para el ejercicio 2.
 
 ## Ejercicio 2 — Sueldo semanal con ISR por rangos
 
-`etapa-1-ejercicio-2.cpp` — **completo, pendiente un ajuste**.
+`etapa-1-ejercicio-2.cpp` — **completo**.
 
 Calcula el sueldo neto semanal de un empleado a partir de su sueldo diario,
 aplicando ISR según una tabla de tres rangos (cuota fija + porcentaje sobre
@@ -53,11 +53,9 @@ excedente).
   porcentaje sobre el excedente.
 - `calcularSueldoNeto(sueldo_bruto, isr)` — `bruto − isr`.
 
-**Pendiente:** los límites de rango, cuotas fijas y porcentajes de la tabla de ISR
-están hardcode dentro de `calcularISR` (`750`, `2340`, `45`, `119`, `514`, `0.0257`,
-`0.12`, `0.2254`). Deben pasar a ser constantes con nombre, igual que en el
-ejercicio 1 — además de más legible, es justo lo que pide la rúbrica de la
-evidencia 1 ("uso de constantes para el catálogo/tarifas").
+Los límites de rango, cuotas fijas y porcentajes de la tabla de ISR ya son
+constantes con nombre (`LIMITE_INFERIOR_RANGO_1`, `CUOTA_FIJA_RANGO_2`, etc.),
+igual que en el ejercicio 1.
 
 ---
 
