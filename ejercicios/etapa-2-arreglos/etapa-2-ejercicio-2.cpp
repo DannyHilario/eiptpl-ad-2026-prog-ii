@@ -43,8 +43,4 @@ int main(){
     cout << "TOTAL A PAGAR: $" << total_a_pagar << endl << endl;
     cout << "__________________________________" << endl;
     cout << "GRACIAS POR SU COMPRA Y ASI" << endl;
-
-
-
-
 }
