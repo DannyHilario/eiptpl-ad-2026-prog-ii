@@ -38,28 +38,28 @@ double calcularSueldoNeto(double sueldo_bruto, double isr);
 
 const int DIAS_SEMANA = 7;
 
-const double LIMITE_INFERIOR[3] = {0.01, 750.01, 2340.01};
-const double LIMITE_SUPERIOR[2] = {750.00, 2340.00};
-const double CUOTA_FIJA[3] = {45.00, 119.00, 514.00};
-const double PORCENTAJE_EXCEDENTE[3] = {0.0257, 0.12, 0.2254};
+const double MATRIZ_TABLA_ISR[3][4] {
+    {0.01, 750.00, 45.00, 0.0257},
+    {750.01, 2340.00, 119.00, 0.12},
+    {2340.01, 0, 514.00, 0.2254}
+};
 
 int main() {
 
     double sueldo_bruto, isr, sueldo_diario, sueldo_neto;
-    double excedente;
 
     do {
         system("clear");
         cout << "Introduce el sueldo diario del empleado: ";
         cin >> sueldo_diario;
         
-        if(sueldo_diario < LIMITE_INFERIOR[0]) {
+        if(sueldo_diario < MATRIZ_TABLA_ISR[0][0]) {
             cout << "ERROR! Salario no valido" << endl;
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Linea macOS
             cin.get(); // Linea macOS
         }
 
-    } while(sueldo_diario < LIMITE_INFERIOR[0]);
+    } while(sueldo_diario < MATRIZ_TABLA_ISR[0][0]);
 
     sueldo_bruto = calcularSueldoBruto(sueldo_diario);
     isr = calcularISR(sueldo_bruto);
@@ -79,15 +79,15 @@ double calcularISR(double sueldo_bruto){
     int numero_rango;
     int indice;
 
-    if(sueldo_bruto <= LIMITE_SUPERIOR[0]){
+    if(sueldo_bruto <= MATRIZ_TABLA_ISR[0][1]){
         numero_rango = 1;
-    } else if (sueldo_bruto <= LIMITE_SUPERIOR[1] ) {
+    } else if (sueldo_bruto <= MATRIZ_TABLA_ISR[1][1] ) {
         numero_rango = 2;
     } else {
         numero_rango = 3; 
     }
     indice = numero_rango - 1;
-    isr = ((sueldo_bruto - LIMITE_INFERIOR[indice]) * PORCENTAJE_EXCEDENTE[indice]) + CUOTA_FIJA[indice];
+    isr = ((sueldo_bruto - MATRIZ_TABLA_ISR[indice][0]) * MATRIZ_TABLA_ISR[indice][3]) + MATRIZ_TABLA_ISR[indice][2];
     return isr;
 }
 

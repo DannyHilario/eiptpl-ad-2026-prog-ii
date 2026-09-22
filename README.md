@@ -25,7 +25,7 @@ cada sesión, vive en [`contenido/README.md`](contenido/README.md).
 ```
 eiptpl-ad-2026-prog-ii/
 ├── contenido/          # Material curado por etapa — ver contenido/README.md
-├── ejercicios/         # Archivos .cpp de práctica, uno por ejercicio
+├── ejercicios/         # Una carpeta por ejercicio: ficha (README.md) + solución (.cpp)
 ├── INSTALACION.md      # Cómo instalar el entorno de C++
 └── COMPILACION.md      # Cómo compilar y ejecutar desde la terminal
 ```

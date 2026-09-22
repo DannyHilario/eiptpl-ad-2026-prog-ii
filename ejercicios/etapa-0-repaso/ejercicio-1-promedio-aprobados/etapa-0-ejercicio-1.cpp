@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 
     const float CALIFICACION_MINIMA = 70;
-    float c1, c2, c3, promedio, porcentaje_aprobados; // Declaración: Estas variables se calculan o leen desde el teclado
+    float c1, c2, c3, promedio; // Declaración: Estas variables se calculan o leen desde el teclado
     int cantidad_aprobados = 0, cantidad_reprobados = 0; // Declaración e inicialización | Contadores
     int I, N;
     system("clear");
