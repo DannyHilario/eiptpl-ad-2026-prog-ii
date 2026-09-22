@@ -1,6 +1,6 @@
 # Ejercicio 3 — Clasificador de temperaturas
 
-*Etapa 0 — Repaso · Temas: validación con `do...while`, `if`/`else if`, contadores y acumuladores · Solución: [`etapa-0-ejercicio-3.cpp`](etapa-0-ejercicio-3.cpp) (incompleta)*
+*Etapa 0 — Repaso · Temas: validación con `do...while`, `if`/`else if`, contadores y acumuladores · Solución: [`etapa-0-ejercicio-3.cpp`](etapa-0-ejercicio-3.cpp)*
 
 ## Historia de usuario
 
@@ -32,7 +32,8 @@ Además, hay dos datos que se deben validar antes de usarlos:
       a pedir, **antes** de entrar al ciclo de captura.
 - [ ] Por cada día (ciclo `for`), pide la temperatura; si es menor a −273.15,
       muestra un error y la vuelve a pedir para ese mismo día.
-- [ ] El cero absoluto es una constante con nombre.
+- [ ] El cero absoluto y los límites de Frío y Caluroso son constantes con
+      nombre.
 - [ ] Clasifica cada temperatura válida con `if`/`else if` y suma 1 al contador
       de su categoría.
 - [ ] Acumula las temperaturas para calcular el promedio.
@@ -58,7 +59,7 @@ Dias frios: 2
 Dias templados: 0
 Dias calurosos: 1
 
-Temperatura promedio: 16.33
+Temperatura promedio: 16.3333
 ```
 
 ## Casos de prueba
@@ -68,7 +69,7 @@ Temperatura promedio: 16.33
 | 1 | Cantidad inválida | días = -2, luego 0 | Error en ambos; vuelve a pedir la cantidad |
 | 2 | Temperatura imposible | -300 | Error de cero absoluto; vuelve a pedir la temperatura del mismo día |
 | 3 | Justo en el cero absoluto | -273.15 | Se acepta y cuenta como día frío |
-| 4 | Grupo mixto | 12, 28, 9 | Fríos 2, templados 0, calurosos 1, promedio 16.33 |
+| 4 | Grupo mixto | 12, 28, 9 | Fríos 2, templados 0, calurosos 1, promedio 16.3333 |
 | 5 | Límites de "Templado" | 15, 25 | Ambos cuentan como templados |
 | 6 | Justo afuera de los límites | 14.9, 25.1 | Uno frío y uno caluroso |
 
@@ -81,8 +82,4 @@ Cómo fue cambiando la solución de este ejercicio a lo largo del curso.
 | 14 ago 2026 | Primer avance: la validación de la cantidad de días con `do...while`, y un `for` que por ahora solo imprime `Ejecucion 1`, `Ejecucion 2`... | Construir y probar primero la validación y el ciclo, antes de meter la lógica de cada día. |
 | 17 ago 2026 | El archivo se movió a la carpeta de la Etapa 0. | Reorganización por etapas. |
 | 22 sep 2026 | El ejercicio se movió a su propia carpeta y se agregó esta ficha. | Reorganización: cada ejercicio con su enunciado junto a su solución. |
-
-**Pendiente:** la solución está incompleta. Solo cumple el primer criterio
-(validar la cantidad de días). Dentro del `for` falta pedir cada temperatura,
-validarla contra el cero absoluto, clasificarla y acumularla, y falta el
-reporte final. Es buen ejercicio para terminarlo tú.
+| 22 sep 2026 | Se completó el ciclo: por cada día pide la temperatura, la valida contra el cero absoluto con su propio `do...while`, la clasifica con `if`/`else if`, suma 1 al contador de su categoría y la acumula. Al final calcula el promedio y muestra el reporte. El cero absoluto y los límites de 15 °C y 25 °C son constantes con nombre. | Faltaba todo lo que va dentro del `for`. Es el mismo patrón que el Ejercicio 2: validación, contadores y un acumulador, pero ahora con dos validaciones (una antes del ciclo y otra dentro). |
