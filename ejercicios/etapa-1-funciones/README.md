@@ -1,11 +1,12 @@
 # Etapa I — Funciones (ejercicios)
 
-Resumen a alto nivel de cada ejercicio: qué resuelve, qué funciones usa y por qué,
-sin repetir el código completo (eso ya vive en el `.cpp` correspondiente).
+Cada ejercicio vive en su propia carpeta, con su ficha (`README.md`: historia de
+usuario, criterios de aceptación, casos de prueba e historial de cambios) y su
+solución (`.cpp`).
 
 **Regla de diseño que siguen (o deben seguir) todos los ejercicios de esta etapa:**
 las funciones que hacen el cálculo son "puras" — reciben datos, regresan un
-resultado, y **no leen con `cin` ni escriben con `cout`**. Todo la interacción con
+resultado, y **no leen con `cin` ni escriben con `cout`**. Toda la interacción con
 el usuario (captura, validación, impresión del resultado) vive en `main()`. Esto
 es a propósito: separa "qué calcula el programa" de "cómo se comunica con el
 usuario", que es la idea central de dividir en funciones.
@@ -15,52 +16,19 @@ capturó, no se vuelve a pedir por separado — se calcula dentro de una funció
 a partir del dato original. Pedir ambos como capturas independientes abre la
 puerta a que el usuario introduzca valores que no cuadran entre sí (por
 ejemplo, "días de retraso" como dato suelto, sin relación con los "días
-totales de uso" ya capturados). Esto aplica tanto a los ejercicios de este
-archivo como a los enunciados personalizados de la
+totales de uso" ya capturados). Esto aplica tanto a los ejercicios de esta
+carpeta como a los enunciados personalizados de la
 [Evidencia 1.1](../../evidencias/etapa-1/02-funciones/descripcion.md).
 
----
+| # | Ejercicio | Temas | Estado de la solución |
+|---|---|---|---|
+| 1 | [Sueldo por hora con impuesto](ejercicio-1-sueldo-por-hora/README.md) | 1.1–1.3 | Pendiente: mensaje de horas máximas |
+| 2 | [Sueldo semanal con ISR por rangos](ejercicio-2-isr-por-rangos/README.md) | 1.1–1.3 | Completa |
+| 3 | Facturación con descuento por volumen e IVA | 1.1–1.3 | Enunciado en la [Evidencia 1.1](../../evidencias/etapa-1/02-funciones/descripcion.md) (Programa 1) — no está aquí para no tener dos fuentes de verdad |
 
-## Ejercicio 1 — Sueldo por hora con impuesto
+## Pendientes en las soluciones
 
-`etapa-1-ejercicio-1.cpp` — **completo**.
-
-Calcula el sueldo neto de varios empleados a partir de sus horas trabajadas y su
-tarifa por hora, aplicando una tasa de impuesto fija.
-
-- `calcularSueldoBruto(horas_trabajadas, tarifa_x_hora)` — `horas × tarifa`.
-- `calcularImpuesto(sueldo_bruto)` — aplica `TASA_IMPUESTO` (constante, 16%).
-- `calcularSueldoNeto(sueldo_bruto, impuesto)` — `bruto − impuesto`.
-
-`main()` valida cantidad de empleados, tarifa y horas (máximo `HORAS_MAXIMAS_PERMITIDAS`,
-constante), y repite el ciclo por cada empleado.
-
-Ya usa constantes (`TASA_IMPUESTO`, `HORAS_MAXIMAS_PERMITIDAS`) en vez de valores
-hardcode — es el ejemplo a seguir para el ejercicio 2.
-
----
-
-## Ejercicio 2 — Sueldo semanal con ISR por rangos
-
-`etapa-1-ejercicio-2.cpp` — **completo**.
-
-Calcula el sueldo neto semanal de un empleado a partir de su sueldo diario,
-aplicando ISR según una tabla de tres rangos (cuota fija + porcentaje sobre
-excedente).
-
-- `calcularSueldoBruto(sueldo_diario)` — `sueldo_diario × 7`.
-- `calcularISR(sueldo_bruto)` — identifica el rango y aplica cuota fija +
-  porcentaje sobre el excedente.
-- `calcularSueldoNeto(sueldo_bruto, isr)` — `bruto − isr`.
-
-Los límites de rango, cuotas fijas y porcentajes de la tabla de ISR ya son
-constantes con nombre (`LIMITE_INFERIOR_RANGO_1`, `CUOTA_FIJA_RANGO_2`, etc.),
-igual que en el ejercicio 1.
-
----
-
-## Ejercicio 3 — Facturación con descuento por volumen e IVA
-
-Este ejercicio es el Programa 1 (común) de la
-[Evidencia 1.1](../../evidencias/etapa-1/02-funciones/descripcion.md) — el
-enunciado completo vive ahí, no aquí, para no tener dos fuentes de verdad.
+- **Ejercicio 1:** el mensaje de error dice "El máximo es 60 horas" (y el
+  comentario de la regla de negocio también dice 60), pero
+  `HORAS_MAXIMAS_PERMITIDAS` vale 80. Además, la validación acepta 0 empleados
+  (`cantidad_empleados < 0`), con lo que el programa termina sin hacer nada.

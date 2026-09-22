@@ -38,29 +38,36 @@ double calcularSueldoNeto(double sueldo_bruto, double isr);
 
 const int DIAS_SEMANA = 7;
 
-const double MATRIZ_TABLA_ISR[3][4] {
-    {0.01, 750.00, 45.00, 0.0257},
-    {750.01, 2340.00, 119.00, 0.12},
-    {2340.01, 0, 514.00, 0.2254}
-};
+const double LIMITE_INFERIOR_RANGO_1 = 0.01;
+const double LIMITE_SUPERIOR_RANGO_1 = 750.00;
+const double CUOTA_FIJA_RANGO_1 = 45.00;
+const double PORCENTAJE_EXCEDENTE_RANGO_1 = 0.0257;
+
+const double LIMITE_INFERIOR_RANGO_2 = 750.01;
+const double LIMITE_SUPERIOR_RANGO_2 = 2340.00;
+const double CUOTA_FIJA_RANGO_2 = 119.00;
+const double PORCENTAJE_EXCEDENTE_RANGO_2 = 0.12;
+
+const double LIMITE_INFERIOR_RANGO_3 = 2340.01;
+const double CUOTA_FIJA_RANGO_3 = 514.00;
+const double PORCENTAJE_EXCEDENTE_RANGO_3 = 0.2254;
 
 int main() {
 
     double sueldo_bruto, isr, sueldo_diario, sueldo_neto;
-    double excedente;
 
     do {
         system("clear");
         cout << "Introduce el sueldo diario del empleado: ";
         cin >> sueldo_diario;
         
-        if(sueldo_diario < MATRIZ_TABLA_ISR[0][0]) {
+        if(sueldo_diario < LIMITE_INFERIOR_RANGO_1) {
             cout << "ERROR! Salario no valido" << endl;
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Linea macOS
             cin.get(); // Linea macOS
         }
 
-    } while(sueldo_diario < MATRIZ_TABLA_ISR[0][0]);
+    } while(sueldo_diario < LIMITE_INFERIOR_RANGO_1);
 
     sueldo_bruto = calcularSueldoBruto(sueldo_diario);
     isr = calcularISR(sueldo_bruto);
@@ -72,28 +79,34 @@ int main() {
     cout << "Sueldo bruto: " << sueldo_bruto << endl;
     cout << "ISR: -" << isr << endl;
     cout << "Sueldo neto: " << sueldo_neto << endl;
+
 }
 
 double calcularISR(double sueldo_bruto){
 
     double isr;
-    int numero_rango;
-    int indice;
 
-    if(sueldo_bruto <= MATRIZ_TABLA_ISR[0][1]){
-        numero_rango = 1;
-    } else if (sueldo_bruto <= MATRIZ_TABLA_ISR[1][1] ) {
-        numero_rango = 2;
+    if(sueldo_bruto <= LIMITE_SUPERIOR_RANGO_1){
+        // Rango 1
+        isr = ((sueldo_bruto - LIMITE_INFERIOR_RANGO_1) * PORCENTAJE_EXCEDENTE_RANGO_1) + CUOTA_FIJA_RANGO_1;
+
+    } else if (sueldo_bruto <= LIMITE_SUPERIOR_RANGO_2 ) {
+        // Rango 2
+        isr = ((sueldo_bruto - LIMITE_INFERIOR_RANGO_2) * PORCENTAJE_EXCEDENTE_RANGO_2) + CUOTA_FIJA_RANGO_2;
+
     } else {
-        numero_rango = 3; 
+        // Rango 3
+        isr = ((sueldo_bruto - LIMITE_INFERIOR_RANGO_3) * PORCENTAJE_EXCEDENTE_RANGO_3) + CUOTA_FIJA_RANGO_3;
     }
-    indice = numero_rango - 1;
-    isr = ((sueldo_bruto - MATRIZ_TABLA_ISR[indice][0]) * MATRIZ_TABLA_ISR[indice][3]) + MATRIZ_TABLA_ISR[indice][2];
+
     return isr;
+
 }
 
 double calcularSueldoBruto(double sueldo_diario){
+
     return (sueldo_diario * DIAS_SEMANA);
+
 }
 
 double calcularSueldoNeto(double sueldo_bruto, double isr){

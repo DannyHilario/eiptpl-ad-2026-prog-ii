@@ -35,7 +35,7 @@ int main() {
     cin >> numeros[0];
 
     system("clear");
-    cout  "El elemento 1 es: " << numeros[0];
+    cout << "El elemento 1 es: " << numeros[0];
 
     */
     system("clear");
