@@ -36,12 +36,13 @@ nadie puede registrar más de un máximo de horas por periodo.
       - `double calcularSueldoBruto(double horas_trabajadas, double tarifa_x_hora)`
       - `double calcularImpuesto(double sueldo_bruto)`
       - `double calcularSueldoNeto(double sueldo_bruto, double impuesto)`
-- [ ] Pide la cantidad de empleados; si es negativa, muestra un error y la
+- [ ] Pide la cantidad de empleados; si es menor a 1, muestra un error y la
       vuelve a pedir.
 - [ ] Por cada empleado pide la tarifa por hora; si es negativa, muestra un
       error y la vuelve a pedir.
 - [ ] Por cada empleado pide las horas trabajadas; si son negativas o mayores al
-      máximo, muestra un error que diga cuál es el máximo y las vuelve a pedir.
+      máximo, muestra un error que diga cuál es el máximo (tomado de la
+      constante, no escrito a mano) y las vuelve a pedir.
 - [ ] Por cada empleado imprime sueldo bruto, impuesto retenido y sueldo neto.
 
 ## Ejemplo de ejecución
@@ -78,9 +79,10 @@ Sueldo neto: 1890
 | 1 | Cálculo normal | tarifa = 100, horas = 40 | bruto 4000, impuesto 640, neto 3360 |
 | 2 | Otro empleado | tarifa = 50, horas = 45 | bruto 2250, impuesto 360, neto 1890 |
 | 3 | Justo en el máximo | tarifa = 10, horas = 80 | bruto 800, impuesto 128, neto 672 |
-| 4 | Horas arriba del máximo | horas = 90 | Error indicando el máximo de 80 horas; vuelve a pedir las horas |
+| 4 | Horas arriba del máximo | horas = 90 | `ERROR! Las horas trabajadas no son válidas. El máximo es 80 horas.`; vuelve a pedir las horas |
 | 5 | Tarifa negativa | tarifa = -5 | `ERROR! La tarifa no puede ser negativa`; vuelve a pedirla |
 | 6 | Cantidad de empleados negativa | cantidad = -1 | `ERROR! No hay trabajadores disponibles`; vuelve a pedirla |
+| 7 | Cero empleados | cantidad = 0 | Mismo error; vuelve a pedirla |
 
 ## Historial de cambios
 
@@ -92,8 +94,4 @@ Cómo fue cambiando la solución de este ejercicio a lo largo del curso.
 | 24 ago 2026 | Cambio grande: la función única se dividió en tres funciones que solo calculan y regresan un valor (`calcularSueldoBruto`, `calcularImpuesto`, `calcularSueldoNeto`). Ahora `main` se encarga de toda la captura y la impresión. Los 3 empleados fijos se reemplazaron por un `for` para N empleados, y se agregaron validaciones y la constante `HORAS_MAXIMAS_PERMITIDAS`. | Una función que imprime solo sirve para ese programa; una que regresa un valor se puede reutilizar. Con un ciclo, el programa funciona para cualquier número de empleados sin repetir código. |
 | 4 sep 2026 | `TASA_IMPUESTO` cambió de `float` a `double`. | `double` tiene más precisión para montos de dinero. |
 | 22 sep 2026 | El ejercicio se movió a su propia carpeta y se agregó esta ficha. | Reorganización: cada ejercicio con su enunciado junto a su solución. |
-
-**Pendiente:** el mensaje de error de horas dice "El máximo es 60 horas", pero
-`HORAS_MAXIMAS_PERMITIDAS` vale 80 (caso de prueba 4). Un mensaje con el número
-escrito a mano se desfasa en cuanto cambia la constante; lo correcto es
-imprimir la constante misma.
+| 22 sep 2026 | El mensaje de error de horas ahora imprime la constante `HORAS_MAXIMAS_PERMITIDAS` en lugar del número 60 escrito a mano (que además estaba mal: la constante vale 80). La validación de la cantidad de empleados ahora también rechaza 0. | Si el mensaje repite un número a mano, se desfasa en cuanto cambia la constante; usando la constante, el mensaje siempre dice la verdad. Con 0 empleados el programa terminaba sin hacer nada. |

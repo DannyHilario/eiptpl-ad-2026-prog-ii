@@ -22,13 +22,6 @@ carpeta como a los enunciados personalizados de la
 
 | # | Ejercicio | Temas | Estado de la solución |
 |---|---|---|---|
-| 1 | [Sueldo por hora con impuesto](ejercicio-1-sueldo-por-hora/README.md) | 1.1–1.3 | Pendiente: mensaje de horas máximas |
+| 1 | [Sueldo por hora con impuesto](ejercicio-1-sueldo-por-hora/README.md) | 1.1–1.3 | Completa |
 | 2 | [Sueldo semanal con ISR por rangos](ejercicio-2-isr-por-rangos/README.md) | 1.1–1.3 | Completa |
 | 3 | Facturación con descuento por volumen e IVA | 1.1–1.3 | Enunciado en la [Evidencia 1.1](../../evidencias/etapa-1/02-funciones/descripcion.md) (Programa 1) — no está aquí para no tener dos fuentes de verdad |
-
-## Pendientes en las soluciones
-
-- **Ejercicio 1:** el mensaje de error dice "El máximo es 60 horas" (y el
-  comentario de la regla de negocio también dice 60), pero
-  `HORAS_MAXIMAS_PERMITIDAS` vale 80. Además, la validación acepta 0 empleados
-  (`cantidad_empleados < 0`), con lo que el programa termina sin hacer nada.
