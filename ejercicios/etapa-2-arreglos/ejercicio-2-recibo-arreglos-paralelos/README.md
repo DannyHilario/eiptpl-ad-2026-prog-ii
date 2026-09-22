@@ -26,9 +26,9 @@ en la posición `0`, el de clave `2` en la posición `1`, y así.
 
 ## Criterios de aceptación
 
-- [ ] Guarda los precios en un arreglo `double` de 3 elementos y las
-      descripciones en un arreglo `string` de 3 elementos, inicializados en la
-      declaración.
+- [ ] Guarda los precios en un arreglo `double` y las descripciones en un
+      arreglo `string`, ambos de tamaño `TOTAL_ARTICULOS` (constante, 3) e
+      inicializados en la declaración.
 - [ ] Pide la clave del artículo y la cantidad de artículos.
 - [ ] Si la clave no está entre 1 y 3, muestra un mensaje de error y la vuelve a
       pedir — nunca accede al arreglo con una posición inválida.
@@ -41,7 +41,7 @@ en la posición `0`, el de clave `2` en la posición `1`, y así.
 ## Ejemplo de ejecución
 
 ```
-Clave del articulo: 2
+Clave del articulo (1 a 3): 2
 Cantidad de articulos: 3
 
  RECIBO DE PAGO
@@ -75,8 +75,4 @@ Cómo fue cambiando la solución de este ejercicio a lo largo del curso.
 | 15 sep 2026 | Primera versión: dos arreglos paralelos (`precio_unitario` y `descripcion_articulo`) consultados con `clave_articulo - 1`. El `switch` de 3 casos que resolvía lo mismo quedó en un comentario, para comparar ambas formas. | Tema 2.3: un arreglo inicializado en la declaración funciona como tabla de consulta y evita repetir código por cada caso. |
 | 17 sep 2026 | Limpieza: se quitaron líneas en blanco sobrantes al final del archivo. | Sin cambios en el funcionamiento. |
 | 22 sep 2026 | El ejercicio se movió a su propia carpeta y se agregó esta ficha. | Reorganización: cada ejercicio con su enunciado junto a su solución. |
-
-**Pendiente:** la solución todavía no valida la clave (criterio de aceptación
-3). Con clave 4, el programa lee fuera del arreglo e imprime basura, por
-ejemplo `Precio unitario: $-3.38968e+240`. Intenta agregar tú la validación
-antes de que se actualice la solución.
+| 22 sep 2026 | Se agregó la validación de la clave con `do...while`: si no está entre 1 y 3, muestra `ERROR! Clave de articulo no valida.` y la vuelve a pedir. El tamaño de los arreglos y el límite de la validación usan la constante `TOTAL_ARTICULOS`. | Antes, con clave 4 el programa leía fuera del arreglo e imprimía basura, por ejemplo `Precio unitario: $-3.38968e+240`. C++ no revisa los límites de un arreglo (tema 2.2): validar el índice le toca al programador. |
