@@ -3,15 +3,29 @@
 #include <string>
 using namespace std;
 
+const int TOTAL_ARTICULOS = 3;
+
 int main(){
 
-    double precio_unitario[3] = {45.00, 38.00, 25.50};
-    string descripcion_articulo[3] = {"Paracetamol", "Gel antibacterial", "Cubrebocas"};
+    double precio_unitario[TOTAL_ARTICULOS] = {45.00, 38.00, 25.50};
+    string descripcion_articulo[TOTAL_ARTICULOS] = {"Paracetamol", "Gel antibacterial", "Cubrebocas"};
     int clave_articulo;
     double total_a_pagar, cantidad_articulos;
 
-    cout << "Clave del articulo: ";
-    cin >> clave_articulo;
+    // Validación: una clave fuera de 1..TOTAL_ARTICULOS accedería fuera del arreglo
+    do {
+        system("clear");
+        cout << "Clave del articulo (1 a " << TOTAL_ARTICULOS << "): ";
+        cin >> clave_articulo;
+
+        if(clave_articulo < 1 || clave_articulo > TOTAL_ARTICULOS) {
+            cout << "ERROR! Clave de articulo no valida." << endl;
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Linea macOS
+            cin.get(); // Linea macOS
+        }
+
+    } while(clave_articulo < 1 || clave_articulo > TOTAL_ARTICULOS);
+
     cout << "Cantidad de articulos: ";
     cin >> cantidad_articulos;
 
