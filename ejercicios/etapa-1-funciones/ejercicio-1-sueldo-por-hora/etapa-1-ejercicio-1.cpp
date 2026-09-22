@@ -20,12 +20,12 @@ int main() {
         cout << "Introduce la cantidad de empleados: " << endl;
         cin >> cantidad_empleados;
 
-        if(cantidad_empleados < 0){
+        if(cantidad_empleados < 1){
             cout << "ERROR! No hay trabajadores disponibles" << endl;
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Linea macOS
             cin.get(); // Linea macOS
         }
-    }while(cantidad_empleados < 0);
+    }while(cantidad_empleados < 1);
 
     for(i = 1; i <= cantidad_empleados; i ++)
     {
@@ -42,7 +42,7 @@ int main() {
             }
         }while(tarifa_x_hora < 0);
 
-        // Regla de negocio: Un trabajador puede trabajar máximo 60 horas.
+        // Regla de negocio: Un trabajador puede trabajar máximo HORAS_MAXIMAS_PERMITIDAS horas.
 
         do{
             system("clear");
@@ -51,7 +51,7 @@ int main() {
             cin >> horas_trabajadas;
 
             if(horas_trabajadas < 0 || horas_trabajadas > HORAS_MAXIMAS_PERMITIDAS){
-                cout << "ERROR! Las horas trabajadas no son válidas. El máximo es 60 horas." << endl;
+                cout << "ERROR! Las horas trabajadas no son válidas. El máximo es " << HORAS_MAXIMAS_PERMITIDAS << " horas." << endl;
                 cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Linea macOS
                 cin.get(); // Linea macOS
             }
