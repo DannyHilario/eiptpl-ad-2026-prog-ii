@@ -10,3 +10,4 @@ usuario, criterios de aceptación y casos de prueba) y su solución (`.cpp`).
 | 3 | [Sueldo semanal con ISR usando arreglos](ejercicio-3-isr-con-arreglos/README.md) | 2.2–2.3 + funciones | Completa |
 | 4 | [Sueldo semanal con ISR usando una matriz](ejercicio-4-isr-con-matriz/README.md) | 2.2–2.3 (matrices) + funciones | Completa |
 | 5 | [Captura de calificaciones en una matriz](ejercicio-5-matriz-calificaciones/README.md) | 2.2, 2.4 (matrices, `for` anidado) | Pendiente: se resuelve en clase |
+| 6 | [Búsqueda lineal en una función](ejercicio-6-busqueda-lineal/README.md) | 2.6 + funciones (arreglo como parámetro) | Pendiente: se resuelve en clase |
