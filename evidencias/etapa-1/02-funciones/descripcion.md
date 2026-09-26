@@ -83,26 +83,26 @@ archivo en la tabla de abajo:
 
 | Matrícula | Nombre del alumno | Enunciado | Estado |
 |---|---|---|---|
-| 2307014 | Cruz Martinez Cielo Michelle | [ver](alumnos/2307014-cruz-martinez-cielo-michelle-etapa-1-funciones.md) | ✅ listo |
-| 2306378 | Espinosa Saucedo Angel Xavier | [ver](alumnos/2306378-espinosa-saucedo-angel-xavier-etapa-1-funciones.md) | ✅ listo |
-| 2254340 | Flores Hidalgo Carolina | [ver](alumnos/2254340-flores-hidalgo-carolina-etapa-1-funciones.md) | ✅ listo |
-| 2306996 | Hernández Hernández Luis Ernesto | [ver](alumnos/2306996-hernandez-hernandez-luis-ernesto-etapa-1-funciones.md) | ✅ listo |
-| 2306741 | Hernandez Lopez Jose | [ver](alumnos/2306741-hernandez-lopez-jose-etapa-1-funciones.md) | ✅ listo |
-| 2306732 | Ibarra Banda Alejandro Israel | [ver](alumnos/2306732-ibarra-banda-alejandro-israel-etapa-1-funciones.md) | ✅ listo |
-| 2306447 | Ibarra Martinez Victor Miguel | [ver](alumnos/2306447-ibarra-martinez-victor-miguel-etapa-1-funciones.md) | ✅ listo |
-| 2306862 | Martinez Rincon Vika Ludivina | [ver](alumnos/2306862-martinez-rincon-vika-ludivina-etapa-1-funciones.md) | ✅ listo |
-| 2253747 | Moreno Mercado Fernando | [ver](alumnos/2253747-moreno-mercado-fernando-etapa-1-funciones.md) | ✅ listo |
-| 2306833 | Ordaz Segura Melissa Alejandra | [ver](alumnos/2306833-ordaz-segura-melissa-alejandra-etapa-1-funciones.md) | ✅ listo |
-| 2254253 | Palacios Moreno Jael Yasmani | [ver](alumnos/2254253-palacios-moreno-jael-yasmani-etapa-1-funciones.md) | ✅ listo |
-| 2306775 | Ramirez Mejorado Jesus Guadalupe | [ver](alumnos/2306775-ramirez-mejorado-jesus-guadalupe-etapa-1-funciones.md) | ✅ listo |
-| 2306333 | Rangel Robles Donovan Antonio | [ver](alumnos/2306333-rangel-robles-donovan-antonio-etapa-1-funciones.md) | ✅ listo |
-| 2306976 | Rocha Ramirez Tomas De Jesus | [ver](alumnos/2306976-rocha-ramirez-tomas-de-jesus-etapa-1-funciones.md) | ✅ listo |
-| 2253859 | Rodriguez Martinez Angel Ricardo | [ver](alumnos/2253859-rodriguez-martinez-angel-ricardo-etapa-1-funciones.md) | ✅ listo |
-| 2253898 | Roldan Reyes Alexis | [ver](alumnos/2253898-roldan-reyes-alexis-etapa-1-funciones.md) | ✅ listo |
-| 2306466 | Salinas Diaz Andrea Elizabeth | [ver](alumnos/2306466-salinas-diaz-andrea-elizabeth-etapa-1-funciones.md) | ✅ listo |
-| 2306493 | Salinas Meza Cesar Eduardo | [ver](alumnos/2306493-salinas-meza-cesar-eduardo-etapa-1-funciones.md) | ✅ listo |
-| 2306396 | Valles Arriaga Iker Karol | [ver](alumnos/2306396-valles-arriaga-iker-karol-etapa-1-funciones.md) | ✅ listo |
-| 2306545 | Vazquez Palacios Angel Daniel | [ver](alumnos/2306545-vazquez-palacios-angel-daniel-etapa-1-funciones.md) | ✅ listo |
+| 2307014 | Cruz Martinez Cielo Michelle | [ver](alumnos/01-cruz-martinez-cielo-michelle-etapa-1-funciones.md) | ✅ listo |
+| 2306378 | Espinosa Saucedo Angel Xavier | [ver](alumnos/02-espinosa-saucedo-angel-xavier-etapa-1-funciones.md) | ✅ listo |
+| 2254340 | Flores Hidalgo Carolina | [ver](alumnos/03-flores-hidalgo-carolina-etapa-1-funciones.md) | ✅ listo |
+| 2306996 | Hernández Hernández Luis Ernesto | [ver](alumnos/04-hernandez-hernandez-luis-ernesto-etapa-1-funciones.md) | ✅ listo |
+| 2306741 | Hernandez Lopez Jose | [ver](alumnos/05-hernandez-lopez-jose-etapa-1-funciones.md) | ✅ listo |
+| 2306732 | Ibarra Banda Alejandro Israel | [ver](alumnos/06-ibarra-banda-alejandro-israel-etapa-1-funciones.md) | ✅ listo |
+| 2306447 | Ibarra Martinez Victor Miguel | [ver](alumnos/07-ibarra-martinez-victor-miguel-etapa-1-funciones.md) | ✅ listo |
+| 2306862 | Martinez Rincon Vika Ludivina | [ver](alumnos/08-martinez-rincon-vika-ludivina-etapa-1-funciones.md) | ✅ listo |
+| 2253747 | Moreno Mercado Fernando | [ver](alumnos/09-moreno-mercado-fernando-etapa-1-funciones.md) | ✅ listo |
+| 2306833 | Ordaz Segura Melissa Alejandra | [ver](alumnos/10-ordaz-segura-melissa-alejandra-etapa-1-funciones.md) | ✅ listo |
+| 2254253 | Palacios Moreno Jael Yasmani | [ver](alumnos/11-palacios-moreno-jael-yasmani-etapa-1-funciones.md) | ✅ listo |
+| 2306775 | Ramirez Mejorado Jesus Guadalupe | [ver](alumnos/12-ramirez-mejorado-jesus-guadalupe-etapa-1-funciones.md) | ✅ listo |
+| 2306333 | Rangel Robles Donovan Antonio | [ver](alumnos/13-rangel-robles-donovan-antonio-etapa-1-funciones.md) | ✅ listo |
+| 2306976 | Rocha Ramirez Tomas De Jesus | [ver](alumnos/14-rocha-ramirez-tomas-de-jesus-etapa-1-funciones.md) | ✅ listo |
+| 2253859 | Rodriguez Martinez Angel Ricardo | [ver](alumnos/15-rodriguez-martinez-angel-ricardo-etapa-1-funciones.md) | ✅ listo |
+| 2253898 | Roldan Reyes Alexis | [ver](alumnos/16-roldan-reyes-alexis-etapa-1-funciones.md) | ✅ listo |
+| 2306466 | Salinas Diaz Andrea Elizabeth | [ver](alumnos/17-salinas-diaz-andrea-elizabeth-etapa-1-funciones.md) | ✅ listo |
+| 2306493 | Salinas Meza Cesar Eduardo | [ver](alumnos/18-salinas-meza-cesar-eduardo-etapa-1-funciones.md) | ✅ listo |
+| 2306396 | Valles Arriaga Iker Karol | [ver](alumnos/19-valles-arriaga-iker-karol-etapa-1-funciones.md) | ✅ listo |
+| 2306545 | Vazquez Palacios Angel Daniel | [ver](alumnos/20-vazquez-palacios-angel-daniel-etapa-1-funciones.md) | ✅ listo |
 
 ---
 
