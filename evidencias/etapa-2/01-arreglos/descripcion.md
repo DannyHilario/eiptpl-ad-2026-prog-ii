@@ -85,7 +85,7 @@ EV2.2_ApellidoNombre.txt
 *Ejemplo: `EV2.2_CruzCielo.txt`*
 
 - **Fecha de entrega:** Jueves 1 de octubre de 2026.
-- **Hora límite:** 8:40 p.m.
+- **Hora límite:** 7:40 p.m.
 
 ---
 
