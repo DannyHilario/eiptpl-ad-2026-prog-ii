@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Rangel Robles Donovan Antonio
-**Matrícula:** XXXXXXX
+**Alumno:** 13 — Rangel Robles Donovan Antonio
 
 ## Programa 2 — Taller mecánico con recargo por refacciones costosas
 

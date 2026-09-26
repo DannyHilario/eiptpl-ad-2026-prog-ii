@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Ordaz Segura Melissa Alejandra
-**Matrícula:** XXXXXXX
+**Alumno:** 10 — Ordaz Segura Melissa Alejandra
 
 ## Programa 2 — Tienda departamental con descuento por compras acumuladas
 

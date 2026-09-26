@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Hernandez Lopez Jose
-**Matrícula:** XXXXXXX
+**Alumno:** 05 — Hernandez Lopez Jose
 
 ## Programa 2 — Renta de auto semanal con kilometraje incluido
 

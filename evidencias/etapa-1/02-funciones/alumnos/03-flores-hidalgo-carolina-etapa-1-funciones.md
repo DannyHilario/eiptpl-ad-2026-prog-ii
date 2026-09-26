@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Flores Hidalgo Carolina
-**Matrícula:** XXXXXXX
+**Alumno:** 03 — Flores Hidalgo Carolina
 
 ## Programa 2 — Plan de streaming con cargo por pantallas adicionales
 
