@@ -8,11 +8,11 @@ acumuladores y uso de constantes.
 Cada alumno tiene un enunciado personalizado con un contexto distinto
 (inventarios, ventas, mediciones, tarifas, etc.), aunque todos comparten el
 mismo nivel de dificultad y los mismos requisitos técnicos. Busca el archivo
-con tu **matrícula y nombre** dentro de la carpeta
+con tu **número de lista y nombre** dentro de la carpeta
 [`alumnos/`](alumnos):
 
 ```
-alumnos/{matricula}-{nombre-del-alumno}-etapa-1-dimension-4.md
+alumnos/{numero-de-lista}-{nombre-del-alumno}-etapa-1-dimension-4.md
 ```
 
 Ese archivo contiene el enunciado de tus dos programas (Programa 1 y

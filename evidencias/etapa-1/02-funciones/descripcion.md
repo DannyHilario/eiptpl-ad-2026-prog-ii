@@ -83,26 +83,26 @@ archivo en la tabla de abajo:
 
 | Matrícula | Nombre del alumno | Enunciado | Estado |
 |---|---|---|---|
-| XXXXXXX | Cruz Martinez Cielo Michelle | [ver](alumnos/XXXXXXX-cruz-martinez-cielo-michelle-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Espinosa Saucedo Angel Xavier | [ver](alumnos/XXXXXXX-espinosa-saucedo-angel-xavier-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Flores Hidalgo Carolina | [ver](alumnos/XXXXXXX-flores-hidalgo-carolina-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Hernández Hernández Luis Ernesto | [ver](alumnos/XXXXXXX-hernandez-hernandez-luis-ernesto-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Hernandez Lopez Jose | [ver](alumnos/XXXXXXX-hernandez-lopez-jose-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Ibarra Banda Alejandro Israel | [ver](alumnos/XXXXXXX-ibarra-banda-alejandro-israel-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Ibarra Martinez Victor Miguel | [ver](alumnos/XXXXXXX-ibarra-martinez-victor-miguel-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Martinez Rincon Vika Ludivina | [ver](alumnos/XXXXXXX-martinez-rincon-vika-ludivina-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Moreno Mercado Fernando | [ver](alumnos/XXXXXXX-moreno-mercado-fernando-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Ordaz Segura Melissa Alejandra | [ver](alumnos/XXXXXXX-ordaz-segura-melissa-alejandra-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Palacios Moreno Jael Yasmani | [ver](alumnos/XXXXXXX-palacios-moreno-jael-yasmani-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Ramirez Mejorado Jesus Guadalupe | [ver](alumnos/XXXXXXX-ramirez-mejorado-jesus-guadalupe-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Rangel Robles Donovan Antonio | [ver](alumnos/XXXXXXX-rangel-robles-donovan-antonio-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Rocha Ramirez Tomas De Jesus | [ver](alumnos/XXXXXXX-rocha-ramirez-tomas-de-jesus-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Rodriguez Martinez Angel Ricardo | [ver](alumnos/XXXXXXX-rodriguez-martinez-angel-ricardo-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Roldan Reyes Alexis | [ver](alumnos/XXXXXXX-roldan-reyes-alexis-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Salinas Diaz Andrea Elizabeth | [ver](alumnos/XXXXXXX-salinas-diaz-andrea-elizabeth-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Salinas Meza Cesar Eduardo | [ver](alumnos/XXXXXXX-salinas-meza-cesar-eduardo-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Valles Arriaga Iker Karol | [ver](alumnos/XXXXXXX-valles-arriaga-iker-karol-etapa-1-funciones.md) | ✅ listo |
-| XXXXXXX | Vazquez Palacios Angel Daniel | [ver](alumnos/XXXXXXX-vazquez-palacios-angel-daniel-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Cruz Martinez Cielo Michelle | [ver](alumnos/01-cruz-martinez-cielo-michelle-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Espinosa Saucedo Angel Xavier | [ver](alumnos/02-espinosa-saucedo-angel-xavier-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Flores Hidalgo Carolina | [ver](alumnos/03-flores-hidalgo-carolina-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Hernández Hernández Luis Ernesto | [ver](alumnos/04-hernandez-hernandez-luis-ernesto-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Hernandez Lopez Jose | [ver](alumnos/05-hernandez-lopez-jose-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Ibarra Banda Alejandro Israel | [ver](alumnos/06-ibarra-banda-alejandro-israel-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Ibarra Martinez Victor Miguel | [ver](alumnos/07-ibarra-martinez-victor-miguel-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Martinez Rincon Vika Ludivina | [ver](alumnos/08-martinez-rincon-vika-ludivina-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Moreno Mercado Fernando | [ver](alumnos/09-moreno-mercado-fernando-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Ordaz Segura Melissa Alejandra | [ver](alumnos/10-ordaz-segura-melissa-alejandra-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Palacios Moreno Jael Yasmani | [ver](alumnos/11-palacios-moreno-jael-yasmani-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Ramirez Mejorado Jesus Guadalupe | [ver](alumnos/12-ramirez-mejorado-jesus-guadalupe-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Rangel Robles Donovan Antonio | [ver](alumnos/13-rangel-robles-donovan-antonio-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Rocha Ramirez Tomas De Jesus | [ver](alumnos/14-rocha-ramirez-tomas-de-jesus-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Rodriguez Martinez Angel Ricardo | [ver](alumnos/15-rodriguez-martinez-angel-ricardo-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Roldan Reyes Alexis | [ver](alumnos/16-roldan-reyes-alexis-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Salinas Diaz Andrea Elizabeth | [ver](alumnos/17-salinas-diaz-andrea-elizabeth-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Salinas Meza Cesar Eduardo | [ver](alumnos/18-salinas-meza-cesar-eduardo-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Valles Arriaga Iker Karol | [ver](alumnos/19-valles-arriaga-iker-karol-etapa-1-funciones.md) | ✅ listo |
+| XXXXXXX | Vazquez Palacios Angel Daniel | [ver](alumnos/20-vazquez-palacios-angel-daniel-etapa-1-funciones.md) | ✅ listo |
 
 ---
 
