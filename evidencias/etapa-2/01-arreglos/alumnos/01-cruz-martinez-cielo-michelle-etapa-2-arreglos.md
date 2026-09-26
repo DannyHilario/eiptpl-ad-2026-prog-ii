@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer empleado, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -170,6 +172,19 @@ EMPLEADO 1
   Dia 5: 2
 
 Total: 10 min -> Puntual
+```
+
+Después de registrar los 4 empleados de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Empleados registrados: 4
+Puntual: 3 (75%)
+Con retardos: 1 (25%)
+Promedio de minutos de retardo por empleado: 18.75 min
 ```
 
 ```

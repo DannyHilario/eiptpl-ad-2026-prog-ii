@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro de la primera máquina, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -169,6 +171,19 @@ MAQUINA 1
   Lectura 4: 85
 
 Promedio: 83.5 dB -> Dentro de la norma
+```
+
+Después de registrar las 3 máquinas de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Maquinas registradas: 3
+Dentro de la norma: 2 (66.67%)
+Excede la norma: 1 (33.33%)
+Promedio general de ruido de la planta: 86.5 dB
 ```
 
 ```

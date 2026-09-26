@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer producto, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -168,6 +170,19 @@ PRODUCTO 1
   Sucursal 3: 12
 
 Total: 77 piezas -> Stock normal
+```
+
+Después de registrar los 3 productos de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Productos registrados: 3
+Stock normal: 1 (33.33%)
+Stock bajo: 2 (66.67%)
+Promedio de existencias por producto: 32 piezas
 ```
 
 ```

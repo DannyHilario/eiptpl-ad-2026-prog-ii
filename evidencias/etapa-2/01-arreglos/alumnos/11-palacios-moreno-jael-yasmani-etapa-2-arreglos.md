@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer técnico, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -170,6 +172,19 @@ TECNICO 1
   Ticket 5: 3.5
 
 Promedio: 9.6 horas -> Dentro de SLA
+```
+
+Después de registrar los 4 técnicos de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Tecnicos registrados: 4
+Dentro de SLA: 2 (50%)
+Fuera de SLA: 2 (50%)
+Promedio de tiempo de resolucion del equipo: 21.65 horas
 ```
 
 ```

@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro de la primera laptop, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -169,6 +171,19 @@ LAPTOP 1
   Clase 4: 35
 
 Promedio: 57.5% -> Bateria suficiente
+```
+
+Después de registrar las 3 laptops de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Laptops registradas: 3
+Bateria suficiente: 2 (66.67%)
+Bateria baja: 1 (33.33%)
+Promedio de carga de las laptops: 31.08%
 ```
 
 ```

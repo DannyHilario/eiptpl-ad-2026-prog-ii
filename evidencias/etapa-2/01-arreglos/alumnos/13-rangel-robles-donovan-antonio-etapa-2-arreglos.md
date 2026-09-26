@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro de la primera página, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -170,6 +172,19 @@ PAGINA 1
   Prueba 5: 2.5
 
 Promedio: 2 s -> Rapida
+```
+
+Después de registrar las 5 páginas de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Paginas registradas: 5
+Rapida: 3 (60%)
+Lenta: 2 (40%)
+Promedio de tiempo de carga del sitio: 2.64 s
 ```
 
 ```

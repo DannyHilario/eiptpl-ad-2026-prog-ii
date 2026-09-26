@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro de la primera casa, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -169,6 +171,19 @@ CASA 1
   Semana 4: 65.5
 
 Total: 256 kWh -> Consumo normal
+```
+
+Después de registrar las 3 casas de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Casas registradas: 3
+Consumo normal: 2 (66.67%)
+Alto consumo: 1 (33.33%)
+Promedio de consumo por casa: 312.17 kWh
 ```
 
 ```

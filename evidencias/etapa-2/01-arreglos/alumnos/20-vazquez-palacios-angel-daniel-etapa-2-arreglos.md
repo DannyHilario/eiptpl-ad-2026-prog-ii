@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro de la primera máquina, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -168,6 +170,19 @@ MAQUINA 1
   Lectura 3: 2
 
 Promedio: 2.5 mm/s -> Estado normal
+```
+
+Después de registrar las 4 máquinas de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Maquinas registradas: 4
+Estado normal: 2 (50%)
+Estado de alerta: 2 (50%)
+Promedio de vibracion de la planta: 4.54 mm/s
 ```
 
 ```
