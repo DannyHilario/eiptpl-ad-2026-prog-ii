@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro de la primera pieza, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -168,6 +170,19 @@ PIEZA 1
   Prueba 3: 610
 
 Promedio: 603.33 kg -> Aprobada
+```
+
+Después de registrar las 3 piezas de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Piezas registradas: 3
+Aprobada: 2 (66.67%)
+Rechazada: 1 (33.33%)
+Promedio de resistencia de las piezas: 527.78 kg
 ```
 
 ```

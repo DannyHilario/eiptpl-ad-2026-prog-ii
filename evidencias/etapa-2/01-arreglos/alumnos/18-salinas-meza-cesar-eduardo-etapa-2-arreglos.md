@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro de la primera línea, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -169,6 +171,19 @@ LINEA 1
   Semana 4: 0.5
 
 Total: 3.5 GB -> Dentro del plan
+```
+
+Después de registrar las 3 líneas de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Lineas registradas: 3
+Dentro del plan: 2 (66.67%)
+Excede el plan: 1 (33.33%)
+Promedio de consumo por linea: 5 GB
 ```
 
 ```

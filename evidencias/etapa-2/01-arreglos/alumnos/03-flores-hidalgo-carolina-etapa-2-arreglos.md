@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer asistente, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -168,6 +170,19 @@ ASISTENTE 1
   Toma 3: 36.6
 
 Promedio: 36.6 °C -> Puede pasar
+```
+
+Después de registrar los 4 asistentes de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Asistentes registrados: 4
+Puede pasar: 2 (50%)
+Febril, no puede pasar: 2 (50%)
+Promedio de temperatura de los asistentes: 37.49 °C
 ```
 
 ```

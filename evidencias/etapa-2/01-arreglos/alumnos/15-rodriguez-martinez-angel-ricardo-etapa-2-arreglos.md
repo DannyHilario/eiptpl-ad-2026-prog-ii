@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer repartidor, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -170,6 +172,19 @@ REPARTIDOR 1
   Envio 5: 2
 
 Promedio: 2 dias -> A tiempo
+```
+
+Después de registrar los 4 repartidores de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Repartidores registrados: 4
+A tiempo: 3 (75%)
+Con retraso: 1 (25%)
+Promedio de dias de entrega de la empresa: 2.5 dias
 ```
 
 ```

@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer vehículo, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -168,6 +170,19 @@ VEHICULO 1
   Radar 3: 75
 
 Promedio: 75 km/h -> Dentro del limite
+```
+
+Después de registrar los 4 vehículos de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Vehiculos registrados: 4
+Dentro del limite: 2 (50%)
+Exceso de velocidad: 2 (50%)
+Promedio de velocidad de los vehiculos: 83 km/h
 ```
 
 ```

@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer lote, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -169,6 +171,19 @@ LOTE 1
   Pieza 4: 0.5
 
 Promedio: 1.75 g -> Dentro de tolerancia
+```
+
+Después de registrar los 3 lotes de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Lotes registrados: 3
+Dentro de tolerancia: 2 (66.67%)
+Fuera de tolerancia: 1 (33.33%)
+Promedio de desviacion de todos los lotes: 4.58 g
 ```
 
 ```

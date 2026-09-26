@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer punto de muestreo, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -169,6 +171,19 @@ PUNTO DE MUESTREO 1
   Muestra 4: 1
 
 Promedio: 1.25 NTU -> Agua apta
+```
+
+Después de registrar los 3 puntos de muestreo de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Puntos de muestreo registrados: 3
+Agua apta: 2 (66.67%)
+Agua no apta: 1 (33.33%)
+Promedio de turbidez de la red: 4.42 NTU
 ```
 
 ```

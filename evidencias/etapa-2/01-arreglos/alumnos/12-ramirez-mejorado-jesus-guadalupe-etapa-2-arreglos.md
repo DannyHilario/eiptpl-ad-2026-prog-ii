@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer salón, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -169,6 +171,19 @@ SALON 1
   Lectura 4: 830
 
 Promedio: 750 ppm -> Nivel normal
+```
+
+Después de registrar los 3 salones de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Salones registrados: 3
+Nivel normal: 2 (66.67%)
+Necesita ventilacion: 1 (33.33%)
+Promedio de CO2 de la escuela: 970 ppm
 ```
 
 ```

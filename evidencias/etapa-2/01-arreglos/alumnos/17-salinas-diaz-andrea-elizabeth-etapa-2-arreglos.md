@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer piso, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -170,6 +172,19 @@ PISO 1
   Medicion 5: 68
 
 Promedio: 75% -> Disponible
+```
+
+Después de registrar los 4 pisos de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Pisos registrados: 4
+Disponible: 2 (50%)
+Lleno: 2 (50%)
+Promedio de ocupacion del estacionamiento: 90.25%
 ```
 
 ```

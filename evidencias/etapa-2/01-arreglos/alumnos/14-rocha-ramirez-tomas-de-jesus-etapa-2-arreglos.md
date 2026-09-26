@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer tanque, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -168,6 +170,19 @@ TANQUE 1
   Lectura 3: 46
 
 Promedio: 45% -> Nivel normal
+```
+
+Después de registrar los 4 tanques de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Tanques registrados: 4
+Nivel normal: 2 (50%)
+Nivel bajo: 2 (50%)
+Promedio de nivel de los tanques: 21.42%
 ```
 
 ```

@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro de la primera caja, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -170,6 +172,19 @@ CAJA 1
   Cliente 5: 4.5
 
 Promedio: 6.6 min -> Espera aceptable
+```
+
+Después de registrar las 5 cajas de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Cajas registradas: 5
+Espera aceptable: 2 (40%)
+Espera excesiva: 3 (60%)
+Promedio de tiempo de espera del supermercado: 11.72 min
 ```
 
 ```

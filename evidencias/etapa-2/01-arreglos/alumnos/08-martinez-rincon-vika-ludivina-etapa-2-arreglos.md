@@ -155,6 +155,8 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 ## Ejemplo de ejecución
 
+Registro del primer cliente, con dos datos fuera de rango:
+
 ```
 Opcion: 1
 
@@ -170,6 +172,19 @@ CLIENTE 1
   Pregunta 5: 9
 
 Promedio: 9 -> Satisfecho
+```
+
+Después de registrar los 5 clientes de los casos de prueba:
+
+```
+Opcion: 2
+
+REPORTE GENERAL
+
+Clientes registrados: 5
+Satisfecho: 3 (60%)
+Insatisfecho: 2 (40%)
+Promedio de calificacion del restaurante: 8.2
 ```
 
 ```
