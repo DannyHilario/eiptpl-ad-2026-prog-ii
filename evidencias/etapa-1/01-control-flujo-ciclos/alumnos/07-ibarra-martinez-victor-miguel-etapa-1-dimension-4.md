@@ -1,7 +1,6 @@
 # Evidencia — Etapa 1, Dimensión 4 (Aplicación)
 
-**Alumno:** Ibarra Martinez Victor Miguel
-**Matrícula:** 2306447
+**Alumno:** 07 — Ibarra Martinez Victor Miguel
 
 Esta evidencia consta de **dos programas independientes** en C++. Ambos retoman
 lo visto en control de flujo y control de ciclos (condicionales, `switch`,

@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Martinez Rincon Vika Ludivina
-**Matrícula:** 2306862
+**Alumno:** 08 — Martinez Rincon Vika Ludivina
 
 ## Programa 2 — Plan de telefonía celular con datos incluidos
 

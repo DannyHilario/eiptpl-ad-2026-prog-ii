@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Valles Arriaga Iker Karol
-**Matrícula:** 2306396
+**Alumno:** 19 — Valles Arriaga Iker Karol
 
 ## Programa 2 — Nómina quincenal con descuento por faltas
 

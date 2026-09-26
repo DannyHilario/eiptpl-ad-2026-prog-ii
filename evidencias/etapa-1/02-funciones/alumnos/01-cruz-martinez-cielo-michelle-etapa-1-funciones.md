@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Cruz Martinez Cielo Michelle
-**Matrícula:** 2307014
+**Alumno:** 01 — Cruz Martinez Cielo Michelle
 
 ## Programa 2 — Renta de equipo con recargo por retraso
 

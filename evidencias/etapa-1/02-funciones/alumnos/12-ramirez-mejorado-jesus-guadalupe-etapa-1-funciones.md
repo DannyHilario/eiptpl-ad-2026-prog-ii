@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Ramirez Mejorado Jesus Guadalupe
-**Matrícula:** 2306775
+**Alumno:** 12 — Ramirez Mejorado Jesus Guadalupe
 
 ## Programa 2 — Pago por llamadas atendidas en call center
 

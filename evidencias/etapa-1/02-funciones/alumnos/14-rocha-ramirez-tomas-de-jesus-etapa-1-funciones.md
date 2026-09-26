@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Rocha Ramirez Tomas De Jesus
-**Matrícula:** 2306976
+**Alumno:** 14 — Rocha Ramirez Tomas De Jesus
 
 ## Programa 2 — Renta de bodega con recargo por peso excedente
 

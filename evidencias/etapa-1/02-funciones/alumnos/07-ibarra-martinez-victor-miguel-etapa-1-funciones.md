@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Ibarra Martinez Victor Miguel
-**Matrícula:** 2306447
+**Alumno:** 07 — Ibarra Martinez Victor Miguel
 
 ## Programa 2 — Servicio de mensajería con kilos incluidos
 

@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Roldan Reyes Alexis
-**Matrícula:** 2253898
+**Alumno:** 16 — Roldan Reyes Alexis
 
 ## Programa 2 — Vendedor de seguros con bono por pólizas
 

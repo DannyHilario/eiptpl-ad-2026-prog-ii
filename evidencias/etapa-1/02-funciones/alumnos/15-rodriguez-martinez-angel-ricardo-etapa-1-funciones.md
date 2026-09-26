@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Rodriguez Martinez Angel Ricardo
-**Matrícula:** 2253859
+**Alumno:** 15 — Rodriguez Martinez Angel Ricardo
 
 ## Programa 2 — Lavado de autos a domicilio con paquete semanal
 

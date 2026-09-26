@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Hernández Hernández Luis Ernesto
-**Matrícula:** 2306996
+**Alumno:** 04 — Hernández Hernández Luis Ernesto
 
 ## Programa 2 — Recibo de agua doméstica por rangos de consumo
 

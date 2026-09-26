@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Vazquez Palacios Angel Daniel
-**Matrícula:** 2306545
+**Alumno:** 20 — Vazquez Palacios Angel Daniel
 
 ## Programa 2 — Renta de equipo de cómputo con recargo por meses de atraso
 

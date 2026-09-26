@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Salinas Meza Cesar Eduardo
-**Matrícula:** 2306493
+**Alumno:** 18 — Salinas Meza Cesar Eduardo
 
 ## Programa 2 — Freelance con bono por horas trabajadas
 

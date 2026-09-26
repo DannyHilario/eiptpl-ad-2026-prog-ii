@@ -1,7 +1,6 @@
 # Evidencia — Etapa 1, Dimensión 4 (Aplicación)
 
-**Alumno:** Cruz Martinez Cielo Michelle
-**Matrícula:** 2307014
+**Alumno:** 01 — Cruz Martinez Cielo Michelle
 
 Esta evidencia consta de **dos programas independientes** en C++. Ambos retoman
 lo visto en control de flujo y control de ciclos (condicionales, `switch`,

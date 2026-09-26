@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Moreno Mercado Fernando
-**Matrícula:** 2253747
+**Alumno:** 09 — Moreno Mercado Fernando
 
 ## Programa 2 — Comisión de ventas con penalización por devoluciones
 

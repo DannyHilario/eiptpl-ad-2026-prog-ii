@@ -1,7 +1,6 @@
 # Evidencia — Etapa 1, Dimensión 4 (Aplicación)
 
-**Alumno:** Rangel Robles Donovan Antonio
-**Matrícula:** 2306333
+**Alumno:** 13 — Rangel Robles Donovan Antonio
 
 Esta evidencia consta de **dos programas independientes** en C++. Ambos retoman
 lo visto en control de flujo y control de ciclos (condicionales, `switch`,

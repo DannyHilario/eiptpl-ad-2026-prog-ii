@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Espinosa Saucedo Angel Xavier
-**Matrícula:** 2306378
+**Alumno:** 02 — Espinosa Saucedo Angel Xavier
 
 ## Programa 2 — Comisión de ventas con bono por meta
 

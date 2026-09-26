@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Palacios Moreno Jael Yasmani
-**Matrícula:** 2254253
+**Alumno:** 11 — Palacios Moreno Jael Yasmani
 
 ## Programa 2 — Colegiatura con recargo por pago atrasado
 

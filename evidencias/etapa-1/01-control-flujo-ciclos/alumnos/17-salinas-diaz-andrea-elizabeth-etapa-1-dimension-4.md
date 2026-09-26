@@ -1,7 +1,6 @@
 # Evidencia — Etapa 1, Dimensión 4 (Aplicación)
 
-**Alumno:** Salinas Diaz Andrea Elizabeth
-**Matrícula:** 2306466
+**Alumno:** 17 — Salinas Diaz Andrea Elizabeth
 
 Esta evidencia consta de **dos programas independientes** en C++. Ambos retoman
 lo visto en control de flujo y control de ciclos (condicionales, `switch`,

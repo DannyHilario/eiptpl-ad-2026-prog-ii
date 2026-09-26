@@ -1,7 +1,6 @@
 # Evidencia — Etapa 1, Dimensión 4 (Aplicación)
 
-**Alumno:** Espinosa Saucedo Angel Xavier
-**Matrícula:** 2306378
+**Alumno:** 02 — Espinosa Saucedo Angel Xavier
 
 Esta evidencia consta de **dos programas independientes** en C++. Ambos retoman
 lo visto en control de flujo y control de ciclos (condicionales, `switch`,

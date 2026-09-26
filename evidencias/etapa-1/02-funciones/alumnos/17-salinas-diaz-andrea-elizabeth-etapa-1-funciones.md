@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Salinas Diaz Andrea Elizabeth
-**Matrícula:** 2306466
+**Alumno:** 17 — Salinas Diaz Andrea Elizabeth
 
 ## Programa 2 — Renta de local comercial con recargo por consumo eléctrico
 

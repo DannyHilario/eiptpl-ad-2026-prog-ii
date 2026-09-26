@@ -1,7 +1,6 @@
 # Evidencia — Etapa 1, Dimensión 4 (Aplicación)
 
-**Alumno:** Valles Arriaga Iker Karol
-**Matrícula:** 2306396
+**Alumno:** 19 — Valles Arriaga Iker Karol
 
 Esta evidencia consta de **dos programas independientes** en C++. Ambos retoman
 lo visto en control de flujo y control de ciclos (condicionales, `switch`,

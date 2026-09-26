@@ -1,7 +1,6 @@
 # Evidencia 1.1 — Programa 2 (personalizado)
 
-**Alumno:** Ibarra Banda Alejandro Israel
-**Matrícula:** 2306732
+**Alumno:** 06 — Ibarra Banda Alejandro Israel
 
 ## Programa 2 — Nómina quincenal con bono por asistencia perfecta
 
