@@ -1,6 +1,6 @@
 # Evidencia 2.2 — Vibración de maquinaria industrial
 
-*Etapa II — Arreglos · Laboratorio de Programas · Entrega: jueves 1 de octubre de 2026, 8:40 p.m. · [Instrucciones generales y rúbrica](../descripcion.md)*
+*Etapa II — Arreglos · Laboratorio de Programas · Entrega: jueves 1 de octubre de 2026, 7:40 p.m. · [Instrucciones generales y rúbrica](../descripcion.md)*
 
 **Alumno:** 20 — Vazquez Palacios Angel Daniel
 
@@ -148,7 +148,7 @@ una sección, alcanzas el nivel **Evidencia completa** de ese criterio.
 
 - [ ] Lo entregas en NEXUS, en la evidencia *"2.2 - Evidencia de Aprendizaje 2:
       Laboratorio de Programas"*, antes del **jueves 1 de octubre de 2026 a las
-      8:40 p.m.**
+      7:40 p.m.**
 - [ ] El archivo es de texto plano, con el nombre `EV2.2_ApellidoNombre.txt`.
 - [ ] El programa lo elaboraste tú: puedes explicar cualquier parte de tu
       código si se te pregunta.
