@@ -4,15 +4,31 @@
 
 ## Programa 1 — Facturación con descuento por volumen e IVA
 
-**Compilación:** **No compila.** El compilador marca error en la línea 1: el archivo empieza con "Programa realizado por: Jesús Ramirez" sin marcarlo como comentario.
+**Compilación:** Tal como se entregó, no compila: la línea 1 ("Programa realizado por: Jesús Ramirez") es texto que no está marcado como comentario; bastaba con poner `//` al inicio. Con esa línea comentada compila sin errores, y las pruebas de abajo se hicieron así.
+
+**Pruebas realizadas:**
+
+| Caso | Entrada | Resultado esperado | Resultado obtenido | ¿Correcto? |
+|---|---|---|---|---|
+| Caso 1 del enunciado | 5 piezas × $100.00 | Subtotal 500.00, descuento 0.00, IVA 80.00, total 580.00 | Idéntico al esperado | ✅ |
+| Caso 2 del enunciado | 60 piezas × $50.00 | Subtotal 3000.00, descuento 360.00, IVA 422.40, total 3062.40 | Idéntico al esperado | ✅ |
+| Límite superior del rango 1 | 9 piezas × $100.00 | Descuento 0.00, total 1044.00 | Idéntico al esperado | ✅ |
+| Límite inferior del rango 2 | 10 piezas × $100.00 | Descuento 50.00 (5%), total 1102.00 | Idéntico al esperado | ✅ |
+| Límite superior del rango 2 | 49 piezas × $100.00 | Descuento 245.00 (5%), total 5399.80 | Idéntico al esperado | ✅ |
+| Límite inferior del rango 3 | 50 piezas × $100.00 | Descuento 600.00 (12%), total 5104.00 | Idéntico al esperado | ✅ |
+| Datos inválidos | Cantidad 0 y -5; precio 0 y -1 | Vuelve a pedir cada dato hasta que sea mayor a 0 | Vuelve a pedir cada dato | ✅ |
 
 **Observaciones:**
 
-- Es el mismo error que en la Evidencia 1. Bastaba con poner // al inicio de esa línea.
-- El código se revisó tal como se entregó, sin corregir nada.
+- Estructura completa: prototipos antes de main, definiciones y llamadas correctas.
+- Las funciones de cálculo no usan cin ni cout; solo main interactúa con el usuario.
+- Límites de rango, porcentajes y tasa de IVA definidos como constantes con nombre.
+- Validación de cantidad y precio con do-while, repitiendo la captura.
+- Reporte completo con base gravable y dos decimales.
 
 **Recomendaciones:**
 
+- Recuerda que el encabezado con tu nombre debe ir como comentario (// o /* */).
 - Antes de entregar, compila y ejecuta en Dev-C++ exactamente el archivo que vas a subir.
 
 **Tu código, con comentarios de revisión:**
@@ -20,7 +36,7 @@
 Las líneas que empiezan con `// [Revisión, línea N]` son comentarios del profesor, colocados justo arriba de la línea N de tu archivo original. Todo lo demás es tu código tal como lo entregaste.
 
 ```cpp
-// [Revisión, línea 1] NO COMPILA: esta línea no es comentario y el compilador intenta leerla como código. Bastaba con escribir // al inicio.
+// [Revisión, línea 1] Esta línea no es comentario y el compilador la lee como código; debe empezar con //.
 Programa realizado por: Jesús Ramirez 
 #include <iostream>
 #include <iomanip>
@@ -28,6 +44,7 @@ Programa realizado por: Jesús Ramirez
 using namespace std;
 
 // Constantes globales de configuración
+// [Revisión, línea 8] Bien: límites, porcentajes y tasa como constantes con nombre.
 const int RANGO_MEDIO_MIN = 10;
 const int RANGO_ALTO_MIN = 50;
 
@@ -48,6 +65,7 @@ int main() {
     double precioUnitario = 0.0;
 
     // Validación de entrada para cantidad
+    // [Revisión, línea 28] Bien: validación de la cantidad con do-while.
     do {
         cout << "Ingrese la cantidad de piezas compradas (debe ser mayor a 0): ";
         cin >> cantidad;
@@ -94,6 +112,7 @@ double calcularSubtotal(int cantidad, double precio_unitario) {
     return cantidad * precio_unitario;
 }
 
+// [Revisión, línea 74] Bien: función pura con constantes.
 double calcularDescuento(int cantidad, double subtotal) {
     if (cantidad >= RANGO_ALTO_MIN) {
         return subtotal * PCT_DESC_ALTO;
@@ -115,23 +134,30 @@ double calcularTotal(double base_gravable, double iva) {
 
 ## Programa 2 — Pago por llamadas atendidas en call center
 
-**Compilación:** **No compila.** El mismo error en la línea 1: "Programa realizado por: Jesús Ramirez" no está marcado como comentario.
+**Compilación:** Mismo caso que en el Programa 1: tal como se entregó, no compila porque la línea 1 ("Programa realizado por: Jesús Ramirez") no está marcada como comentario. Con esa línea comentada compila sin errores, y las pruebas de abajo se hicieron así.
+
+**Pruebas realizadas:**
+
+| Caso | Entrada | Resultado esperado | Resultado obtenido | ¿Correcto? |
+|---|---|---|---|---|
+| Caso 1 del enunciado | 150 llamadas | Pago base 1200.00, bono no aplica, ISR 120.00, neto 1080.00 | Idéntico al esperado | ✅ |
+| Caso 2 del enunciado | 250 llamadas | Pago base 2000.00, bono 200.00, ISR 220.00, neto 1980.00 | Idéntico al esperado | ✅ |
+| Límite: exactamente la meta | 200 llamadas | Sin bono (no supera la meta), neto 1440.00 | Idéntico al esperado | ✅ |
+| Una llamada sobre la meta | 201 llamadas | Bono 160.80, neto 1591.92 | Idéntico al esperado | ✅ |
+| Datos inválidos | Llamadas -3 y -1 | Vuelve a pedir el dato (0 sí es válido) | Lo vuelve a pedir | ✅ |
 
 **Observaciones:**
 
-- Bastaba con poner // al inicio de esa línea.
-- El código se revisó tal como se entregó, sin corregir nada.
-
-**Recomendaciones:**
-
-- Antes de entregar, compila y ejecuta en Dev-C++ exactamente el archivo que vas a subir.
+- Funciones puras (sin cin ni cout), constantes con nombre para tarifa, meta, bono e ISR, y validación correctas.
+- calcularBono recibe los dos parámetros necesarios y el bono solo aplica si las llamadas SUPERAN la meta.
+- Muestra "No aplica" cuando el bono es 0, y el reporte tiene dos decimales.
 
 **Tu código, con comentarios de revisión:**
 
 Las líneas que empiezan con `// [Revisión, línea N]` son comentarios del profesor, colocados justo arriba de la línea N de tu archivo original. Todo lo demás es tu código tal como lo entregaste.
 
 ```cpp
-// [Revisión, línea 1] NO COMPILA: esta línea no es comentario y el compilador intenta leerla como código. Bastaba con escribir // al inicio.
+// [Revisión, línea 1] Esta línea no es comentario y el compilador la lee como código; debe empezar con //.
 Programa realizado por: Jesús Ramirez 
 
 #include <iostream>
@@ -140,6 +166,7 @@ Programa realizado por: Jesús Ramirez
 using namespace std;
 
 // Constantes globales de configuración
+// [Revisión, línea 9] Bien: constantes con nombre.
 const double TARIFA_POR_LLAMADA = 8.00;
 const int META_SEMANAL = 200;
 const double PCT_BONO = 0.10;
@@ -181,6 +208,7 @@ int main() {
     if (bono > 0.0) {
         cout << "Bono (10%):        +$" << bono << "\n";
     } else {
+        // [Revisión, línea 50] Bien: muestra "No aplica" cuando el bono es 0.
         cout << "Bono:                No aplica ($0.00)\n";
     }
 
@@ -200,6 +228,7 @@ double calcularPagoBase(int llamadas_atendidas) {
 }
 
 double calcularBono(int llamadas_atendidas, double pago_base) {
+    // [Revisión, línea 69] Correcto: el bono solo aplica si las llamadas SUPERAN la meta.
     if (llamadas_atendidas > META_SEMANAL) {
         return pago_base * PCT_BONO;
     }
@@ -217,4 +246,4 @@ double calcularPagoNeto(double ingreso_total, double isr) {
 
 ## Comentario general
 
-Ninguno de los dos programas compila por el mismo motivo que en la Evidencia 1: el encabezado con tu nombre no está escrito como comentario.
+Ninguno de los dos archivos compila tal como se entregó porque el encabezado con tu nombre no está escrito como comentario, igual que en la Evidencia 1. Con esa línea comentada, ambos programas son correctos en todos los casos.
