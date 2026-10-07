@@ -5,6 +5,7 @@ manual/
 .claude
 CLAUDE.md
 ALUMNOS.md
+retroalimentacion-entrega-calificaciones/
 .vscode/
 
 # Ejercicios: solo se versiona el código fuente, los README de cada etapa, y no
