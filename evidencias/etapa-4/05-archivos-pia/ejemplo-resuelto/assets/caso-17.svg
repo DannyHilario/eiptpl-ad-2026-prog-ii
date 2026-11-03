@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 591 432" width="591" height="432" font-family="Consolas, 'Lucida Console', 'Courier New', monospace">
+<rect width="591" height="432" rx="6" fill="#0c0c0c" stroke="#8a8a8a"/>
+<rect width="591" height="30" rx="6" fill="#f3f3f3"/><rect y="24" width="591" height="6" fill="#f3f3f3"/>
+<text x="12" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">C:\Users\Alumno\Documents\PIA\vivero.exe</text>
+<text x="509" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">—</text>
+<text x="537" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">▢</text>
+<text x="565" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">✕</text>
+<text x="14" y="57" font-size="13" fill="#cccccc" xml:space="preserve">Se cargaron 6 plantas de plantas.txt</text>
+<text x="14" y="74" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="91" font-size="13" fill="#cccccc" xml:space="preserve">VIVERO ESCOLAR</text>
+<text x="14" y="108" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="125" font-size="13" fill="#cccccc" xml:space="preserve">1.- Alta de una planta</text>
+<text x="14" y="142" font-size="13" fill="#cccccc" xml:space="preserve">2.- Buscar una planta</text>
+<text x="14" y="159" font-size="13" fill="#cccccc" xml:space="preserve">3.- Cambiar los datos de una planta</text>
+<text x="14" y="176" font-size="13" fill="#cccccc" xml:space="preserve">4.- Desplegar plantas</text>
+<text x="14" y="193" font-size="13" fill="#cccccc" xml:space="preserve">5.- Resumen general</text>
+<text x="14" y="210" font-size="13" fill="#cccccc" xml:space="preserve">6.- Salir</text>
+<text x="14" y="227" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="244" font-size="13" fill="#cccccc" xml:space="preserve">Opcion: 4</text>
+<text x="14" y="261" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="278" font-size="13" fill="#cccccc" xml:space="preserve">PLANTAS REGISTRADAS</text>
+<text x="14" y="295" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="312" font-size="13" fill="#cccccc" xml:space="preserve">Clave   Fecha           S1      S2      S3      Promedio</text>
+<text x="14" y="329" font-size="13" fill="#cccccc" xml:space="preserve">V01     3/2/2026        6.00    7.00    8.50    7.17    Crece lento</text>
+<text x="14" y="346" font-size="13" fill="#cccccc" xml:space="preserve">V02     17/2/2026       6.00    7.00    8.50    7.17    Crece lento</text>
+<text x="14" y="363" font-size="13" fill="#cccccc" xml:space="preserve">V03     2/3/2026        10.00   10.00   10.00   10.00   Crece bien</text>
+<text x="14" y="380" font-size="13" fill="#cccccc" xml:space="preserve">V04     20/1/2026       12.00   13.50   15.00   13.50   Crece bien</text>
+<text x="14" y="397" font-size="13" fill="#cccccc" xml:space="preserve">V05     9/3/2026        5.00    6.50    7.00    6.17    Crece lento</text>
+<text x="14" y="414" font-size="13" fill="#cccccc" xml:space="preserve">V06     4/2/2026        7.75    8.50    10.25   8.83    Crece lento</text>
+</svg>

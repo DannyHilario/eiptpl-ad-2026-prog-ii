@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 466 99" width="466" height="99" font-family="Consolas, 'Lucida Console', 'Courier New', monospace">
+<rect width="466" height="99" rx="6" fill="#ffffff" stroke="#8a8a8a"/>
+<rect width="466" height="30" rx="6" fill="#f3f3f3"/><rect y="24" width="466" height="6" fill="#f3f3f3"/>
+<text x="12" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">plantas.txt: Bloc de notas</text>
+<text x="384" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">—</text>
+<text x="412" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">▢</text>
+<text x="440" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">✕</text>
+<rect y="30" width="466" height="24" fill="#ffffff"/><line x1="0" y1="54" x2="466" y2="54" stroke="#e0e0e0"/>
+<text x="12" y="47" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">Archivo     Editar     Ver</text>
+<text x="14" y="81" font-size="13" fill="#1a1a1a" xml:space="preserve">V06 4 2 2026 7.75 8.5 10.25</text>
+</svg>
