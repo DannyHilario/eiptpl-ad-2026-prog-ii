@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 591 568" width="591" height="568" font-family="Consolas, 'Lucida Console', 'Courier New', monospace">
+<rect width="591" height="568" rx="6" fill="#0c0c0c" stroke="#8a8a8a"/>
+<rect width="591" height="30" rx="6" fill="#f3f3f3"/><rect y="24" width="591" height="6" fill="#f3f3f3"/>
+<text x="12" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">C:\Users\Alumno\Documents\PIA\vivero.exe</text>
+<text x="509" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">—</text>
+<text x="537" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">▢</text>
+<text x="565" y="20" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1a1a">✕</text>
+<text x="14" y="57" font-size="13" fill="#cccccc" xml:space="preserve">6.- Salir</text>
+<text x="14" y="74" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="91" font-size="13" fill="#cccccc" xml:space="preserve">Opcion: 3</text>
+<text x="14" y="108" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="125" font-size="13" fill="#cccccc" xml:space="preserve">CAMBIAR LOS DATOS DE UNA PLANTA</text>
+<text x="14" y="142" font-size="13" fill="#cccccc" xml:space="preserve">No hay plantas registradas</text>
+<text x="14" y="159" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="176" font-size="13" fill="#cccccc" xml:space="preserve">VIVERO ESCOLAR</text>
+<text x="14" y="193" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="210" font-size="13" fill="#cccccc" xml:space="preserve">1.- Alta de una planta</text>
+<text x="14" y="227" font-size="13" fill="#cccccc" xml:space="preserve">2.- Buscar una planta</text>
+<text x="14" y="244" font-size="13" fill="#cccccc" xml:space="preserve">3.- Cambiar los datos de una planta</text>
+<text x="14" y="261" font-size="13" fill="#cccccc" xml:space="preserve">4.- Desplegar plantas</text>
+<text x="14" y="278" font-size="13" fill="#cccccc" xml:space="preserve">5.- Resumen general</text>
+<text x="14" y="295" font-size="13" fill="#cccccc" xml:space="preserve">6.- Salir</text>
+<text x="14" y="312" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="329" font-size="13" fill="#cccccc" xml:space="preserve">Opcion: 4</text>
+<text x="14" y="346" font-size="13" fill="#cccccc" xml:space="preserve">No hay plantas registradas</text>
+<text x="14" y="363" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="380" font-size="13" fill="#cccccc" xml:space="preserve">VIVERO ESCOLAR</text>
+<text x="14" y="397" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="414" font-size="13" fill="#cccccc" xml:space="preserve">1.- Alta de una planta</text>
+<text x="14" y="431" font-size="13" fill="#cccccc" xml:space="preserve">2.- Buscar una planta</text>
+<text x="14" y="448" font-size="13" fill="#cccccc" xml:space="preserve">3.- Cambiar los datos de una planta</text>
+<text x="14" y="465" font-size="13" fill="#cccccc" xml:space="preserve">4.- Desplegar plantas</text>
+<text x="14" y="482" font-size="13" fill="#cccccc" xml:space="preserve">5.- Resumen general</text>
+<text x="14" y="499" font-size="13" fill="#cccccc" xml:space="preserve">6.- Salir</text>
+<text x="14" y="516" font-size="13" fill="#cccccc" xml:space="preserve"></text>
+<text x="14" y="533" font-size="13" fill="#cccccc" xml:space="preserve">Opcion: 5</text>
+<text x="14" y="550" font-size="13" fill="#cccccc" xml:space="preserve">No hay plantas registradas</text>
+</svg>
