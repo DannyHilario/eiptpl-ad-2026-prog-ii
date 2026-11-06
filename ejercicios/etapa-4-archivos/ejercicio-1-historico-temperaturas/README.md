@@ -1,6 +1,6 @@
 # Ejercicio 1 — Histórico de temperaturas
 
-*Etapa IV — Archivos · Temas: 4.8–4.9 · Solución: [`etapa-4-ejercicio-1.cpp`](etapa-4-ejercicio-1.cpp) · Siguiente: [Ejercicio 2](../ejercicio-2-consulta-historico/README.md)*
+*Etapa IV — Archivos · Temas: 4.8–4.9 · Solución: [`etapa-4-ejercicio-1.cpp`](etapa-4-ejercicio-1.cpp) · Anterior: [Ejercicio 0](../ejercicio-0-archivos-basicos/README.md) · Siguiente: [Ejercicio 2](../ejercicio-2-consulta-historico/README.md)*
 
 ## Historia de usuario
 
