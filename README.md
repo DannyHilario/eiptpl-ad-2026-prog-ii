@@ -1,5 +1,8 @@
 # Programación II
 
+> El curso concluyó (agosto–diciembre 2026). Este repositorio queda como material de
+> consulta.
+
 Repositorio oficial de la clase de **Programación II** de la Escuela Industrial y
 Preparatoria Técnica "Pablo Livas", para el **grupo 323** de la **Unidad Centro**.
 
@@ -17,8 +20,8 @@ condicionales, ciclos) y cubre cuatro etapas: **funciones**, **arreglos**,
 
 ## Contenido
 
-El temario completo, organizado por etapa, con enlaces al material ya publicado de
-cada sesión, vive en [`contenido/README.md`](contenido/README.md).
+El temario completo, organizado por etapa, con enlaces al material de cada sesión
+desarrollada, vive en [`contenido/README.md`](contenido/README.md).
 
 ## Estructura del repositorio
 
@@ -26,6 +29,8 @@ cada sesión, vive en [`contenido/README.md`](contenido/README.md).
 eiptpl-ad-2026-prog-ii/
 ├── contenido/          # Material curado por etapa — ver contenido/README.md
 ├── ejercicios/         # Una carpeta por ejercicio: ficha (README.md) + solución (.cpp)
+├── evidencias/         # Enunciados de las evidencias de evaluación y del PIA
+├── examenes/           # Programas originales del ejercicio 1 del examen de medio término
 ├── INSTALACION.md      # Cómo instalar el entorno de C++
 └── COMPILACION.md      # Cómo compilar y ejecutar desde la terminal
 ```

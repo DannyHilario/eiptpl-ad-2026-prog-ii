@@ -19,3 +19,10 @@ ejercicios/**/*
 !ejercicios/**/*.h
 !ejercicios/**/*.hpp
 !ejercicios/**/README.md
+
+# Exámenes: solo se publican los programas originales (.cpp) del ejercicio 1 del
+# medio término; los enunciados (.md/.pdf) que crea el generador no se publican.
+examenes/*
+examenes/**/*
+!examenes/**/
+!examenes/**/*.cpp
