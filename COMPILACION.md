@@ -22,7 +22,7 @@ y no se genera ningún ejecutable hasta que el código compile sin errores.
 
 ```bash
 ./a.out         # macOS/Linux
-a.exe           # Windows
+.\a.exe         # Windows (PowerShell; en cmd basta con a.exe)
 ```
 
 ## Qué archivos se generan
@@ -83,10 +83,10 @@ residuales dentro de `ejercicios/`.
    ```bash
    g++ prueba.cpp
    ./a.out         # macOS/Linux
-   a.exe           # Windows
+   .\a.exe         # Windows (PowerShell; en cmd basta con a.exe)
    ```
 3. Debe pedir un nombre por teclado (`cin`) y luego mostrar el mensaje de éxito.
 4. Borra la carpeta temporal cuando termines — ya cumplió su propósito.
 
 Si ves ese mensaje, el entorno quedó listo para compilar y correr cualquier programa
-de ejemplo del manual.
+de ejemplo del curso.

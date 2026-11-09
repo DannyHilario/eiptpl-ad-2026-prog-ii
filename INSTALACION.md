@@ -12,14 +12,9 @@ Hay dos rutas distintas para compilar y ejecutar tus programas de C++:
 
 1. Descarga el instalador desde [sourceforge.net/projects/orwelldevcpp](https://sourceforge.net/projects/orwelldevcpp/)
    (la versión más mantenida del Dev-C++ original, trae MinGW incluido).
-2. Instala con las opciones por default.
-3. Configura el estándar de C++ a C++17 (el default de Dev-C++ suele ser más viejo):
-   - Menú **Herramientas → Opciones del Compilador** (Tools → Compiler Options).
-   - Pestaña **Configuraciones** → activa "Agregar los siguientes comandos" y escribe:
-     ```
-     -std=c++17
-     ```
-4. Para compilar y ejecutar un programa: abre el `.cpp`, presiona **F11** (o el botón
+2. Instala con las opciones por default. No hace falta configurar nada más: todo el
+   material del curso compila con el estándar que Dev-C++ usa por defecto.
+3. Para compilar y ejecutar un programa: abre el `.cpp`, presiona **F11** (o el botón
    "Compilar y ejecutar"). Se abre una consola con el resultado.
 
 ## Opción B: Instalar el compilador por terminal

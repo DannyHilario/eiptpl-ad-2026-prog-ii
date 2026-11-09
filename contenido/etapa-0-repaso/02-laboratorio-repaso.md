@@ -27,6 +27,9 @@ Total reprobados: 1
 Porcentaje de aprobacion: 66.67%
 ```
 
+**Pista:** el porcentaje con dos decimales usa `fixed` y `setprecision(2)`; ver la pista
+del ejercicio 2.
+
 ## 2. Cajero con tres cajas
 
 Menú con 4 opciones: Caja 1, Caja 2, Caja 3, y Finalizar turno. Cada vez que el
@@ -69,6 +72,11 @@ Caja 2: $30.00, 1 cliente
 Caja 3: $0.00, 0 clientes
 TOTAL: $100.00, 3 clientes
 ```
+
+**Pista:** para que los montos salgan con dos decimales (`$70.00`), agrega
+`#include <iomanip>` y escribe una vez, antes de imprimir,
+`cout << fixed << setprecision(2);`. Se explica en
+[1.2 Funciones predefinidas](../etapa-1-funciones/1.2-funciones-predefinidas.md#iomanip--cuántos-decimales-mostrar).
 
 ## 3. Clasificador de temperaturas
 
