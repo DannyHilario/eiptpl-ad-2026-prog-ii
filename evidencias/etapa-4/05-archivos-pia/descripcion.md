@@ -82,13 +82,13 @@ capturas. Así debe verse tu `PIA_ApellidoNombre.pdf`:
 
 ## Material de consulta
 
-Hay dos temas que no vimos en clase y que el PIA necesita. Están escritos para que los
-consultes por tu cuenta:
+Hay dos temas que no se vieron en clase antes del PIA y que el PIA necesita. Están escritos para
+que los consultes por tu cuenta:
 
 | Para… | Tema |
 |---|---|
-| Pasar el arreglo de structs a una función, y por qué la función de alta regresa el nuevo contador | [1.5 Paso de parámetros](../../../contenido/etapa-1-funciones/1.5-paso-de-parametros.md) (**nuevo**) |
-| Mostrar los resultados con 2 decimales | [1.2 Funciones predefinidas — `<iomanip>`](../../../contenido/etapa-1-funciones/1.2-funciones-predefinidas.md#iomanip--cuántos-decimales-mostrar) (**nuevo**) |
+| Pasar el arreglo de structs a una función, y por qué la función de alta regresa el nuevo contador | [1.5 Paso de parámetros](../../../contenido/etapa-1-funciones/1.5-paso-de-parametros.md) |
+| Mostrar los resultados con 2 decimales | [1.2 Funciones predefinidas — `<iomanip>`](../../../contenido/etapa-1-funciones/1.2-funciones-predefinidas.md#iomanip--cuántos-decimales-mostrar) |
 | Buscar un registro por su identificador | [2.6 Búsqueda lineal](../../../contenido/etapa-2-arreglos/2.6-busqueda-lineal.md) |
 | El arreglo de structs y su contador | [3.4 Arreglos de registros](../../../contenido/etapa-3-estructuras/3.4-arreglos-de-registros.md) y [3.5 Estructuras anidadas](../../../contenido/etapa-3-estructuras/3.5-estructuras-anidadas.md) |
 | Leer y escribir el archivo sin `eof()` | [4.8 Ficheros en C++](../../../contenido/etapa-4-archivos/4.8-ficheros-en-cpp.md) |
@@ -160,4 +160,12 @@ alcanzas el nivel **Evidencia completa** de ese criterio.
 - **Las capturas deben ser de tu programa.** El profesor corre tu código con los mismos datos de
   tu bitácora: una captura que tu programa no puede producir cuenta
   como evidencia que no elaboraste tú.
-- **No hay entregas extemporáneas.** Lo que no esté en NEXUS a la fecha y hora límite no se recibe.
+- **No hay entregas extemporáneas.** Lo que no esté en NEXUS a la fecha y hora límite no se recibe
+  (por eso, en Actitudes, el nivel "entregado fuera de tiempo" no aplica).
+
+## Nota sobre el caso de prueba 19
+
+El caso 19 carga un archivo con más renglones que la capacidad del arreglo. Si después de
+cargarlo se usa la opción de cambiar, la reescritura guarda solo los registros que cupieron:
+los renglones sobrantes se pierden. El enunciado no pide detectar esa situación, así que no
+se califica.

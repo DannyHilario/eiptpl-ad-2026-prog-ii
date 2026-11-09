@@ -22,7 +22,7 @@ ningún alumno. Muestra lo que se espera en `PIA_ApellidoNombre.pdf`:
 ## Portada
 
 - **Nombre:** (tu nombre completo)
-- **Número:** (tu número en la lista)
+- **Número:** (tu número, el que aparece en tu enunciado)
 - **Contexto:** Crecimiento de plantas en un vivero
 
 ## Pruebas
