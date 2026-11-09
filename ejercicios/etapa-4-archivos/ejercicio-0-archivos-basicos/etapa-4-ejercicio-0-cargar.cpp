@@ -8,7 +8,7 @@ struct Producto{
     int cantidad;
 };
 
-const int MAX = 10;   // cuantos productos caben en el arreglo
+const int MAX = 15;   // cuantos productos caben en el arreglo
 
 int main(){
 

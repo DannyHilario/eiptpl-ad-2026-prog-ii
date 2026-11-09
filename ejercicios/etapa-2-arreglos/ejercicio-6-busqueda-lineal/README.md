@@ -1,6 +1,6 @@
 # Ejercicio 6 — Búsqueda lineal en una función
 
-*Etapa II — Arreglos · Temas: 2.6 (búsqueda lineal) + funciones (arreglo como parámetro) · Solución: `etapa-2-ejercicio-6.cpp` (se escribe en clase)*
+*Etapa II — Arreglos · Temas: 2.6 (búsqueda lineal) + funciones (arreglo como parámetro) · Solución: [`etapa-2-ejercicio-6.cpp`](etapa-2-ejercicio-6.cpp) (escrita en clase)*
 
 ## Historia de usuario
 

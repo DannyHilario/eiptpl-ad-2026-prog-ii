@@ -88,8 +88,8 @@ del que se copió.
 |---|---|---|
 | 21 ago 2026 | *(Etapa I, Ej. 2)* Primera versión: todo el cálculo dentro de `main`, con los números de la tabla escritos directo en la fórmula (`0.0257`, `45`, `750`...). | Resolver el problema primero, sin preocuparse todavía por la estructura. |
 | 24 ago 2026 | *(Etapa I, Ej. 2)* El cálculo se separó en tres funciones: `calcularSueldoBruto`, `calcularISR` y `calcularSueldoNeto`. | Tema 1.3: dividir el programa en funciones. |
-| 4 sep 2026 | *(Etapa I, Ej. 2)* Los números de la tabla pasaron a constantes con nombre (`CUOTA_FIJA_RANGO_1`...), 13 en total, y `float` pasó a `double`. | Evitar "números mágicos": un nombre dice qué significa cada valor. |
-| 17 sep 2026 | **Nace este ejercicio:** las 13 constantes se agruparon en 4 arreglos, uno por columna de la tabla (`LIMITE_INFERIOR[3]`, `CUOTA_FIJA[3]`...). `calcularISR` ahora solo decide el número de rango y aplica **una** fórmula con ese índice, en lugar de repetirla 3 veces. | Tema 2.3: un arreglo agrupa datos del mismo tipo que se usan igual. |
+| 4 sep 2026 | *(Etapa I, Ej. 2)* Los números de la tabla pasaron a constantes con nombre (`CUOTA_FIJA_RANGO_1`...), 11 en total, y `float` pasó a `double`. | Evitar "números mágicos": un nombre dice qué significa cada valor. |
+| 17 sep 2026 | **Nace este ejercicio:** las 11 constantes se agruparon en 4 arreglos, uno por columna de la tabla (`LIMITE_INFERIOR[3]`, `CUOTA_FIJA[3]`...). `calcularISR` ahora solo decide el número de rango y aplica **una** fórmula con ese índice, en lugar de repetirla 3 veces. | Tema 2.3: un arreglo agrupa datos del mismo tipo que se usan igual. |
 | 22 sep 2026 | El ejercicio se movió a su propia carpeta y se agregó esta ficha. | Reorganización: cada ejercicio con su enunciado junto a su solución. |
 | 22 sep 2026 | Se quitó la variable `excedente`, que se declaraba en `main` pero nunca se usaba (venía copiada desde la Etapa I). | `g++ -Wall` avisaba `unused variable 'excedente'`. |
 

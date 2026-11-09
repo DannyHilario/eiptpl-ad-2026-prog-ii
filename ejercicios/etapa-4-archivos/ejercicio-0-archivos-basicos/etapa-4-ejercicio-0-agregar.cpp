@@ -20,7 +20,6 @@ int main(){
     cin >> cantidad;
 
     ofstream archivo("compras.txt", ios::app);   // app = append = agregar al final
-
     archivo << producto << " " << cantidad << endl;
 
     archivo.close();

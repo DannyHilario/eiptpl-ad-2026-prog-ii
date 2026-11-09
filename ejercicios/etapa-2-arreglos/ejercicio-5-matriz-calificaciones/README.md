@@ -1,6 +1,6 @@
 # Ejercicio 5 — Captura de calificaciones en una matriz
 
-*Etapa II — Arreglos · Temas: 2.2 (arreglos bidimensionales), 2.4 (recorrido con `for` anidado) · Solución: `etapa-2-ejercicio-5.cpp` (se escribe en clase)*
+*Etapa II — Arreglos · Temas: 2.2 (arreglos bidimensionales), 2.4 (recorrido con `for` anidado) · Solución: [`etapa-2-ejercicio-5.cpp`](etapa-2-ejercicio-5.cpp) (escrita en clase)*
 
 ## Historia de usuario
 
@@ -110,5 +110,5 @@ qué orden van dentro de `calificaciones[?][?]`.
 |---|---|---|
 | 22 sep 2026 | Se creó esta ficha. La solución se escribe en clase. | Primer contacto con matrices: capturar y recorrer una tabla completa, no solo leer una matriz fija como en el [Ejercicio 4](../ejercicio-4-isr-con-matriz/README.md). |
 
-**Siguiente clase:** este mismo programa se va a dividir en funciones, pasando
-la matriz como parámetro. Guarda tu solución: vas a partir de ella.
+**Continuación:** el [Ejercicio 7](../ejercicio-7-registro-calificaciones-menu/README.md)
+parte de este programa y lo controla con un menú.

@@ -318,7 +318,9 @@ compiladores más viejos, como el de Dev-C++; no se pudo probar en este equipo.
    ese renglón y **todos los siguientes** se ignoran, sin aviso. Con un archivo que
    solo escribe el programa, eso no pasa.
 2. **El promedio se muestra con todos sus decimales** (`8.16667`); redondear a uno
-   requiere `iomanip`, que no se ve en el curso.
+   requiere `fixed` y `setprecision` de `<iomanip>` (ver
+   [1.2](../../../contenido/etapa-1-funciones/1.2-funciones-predefinidas.md#iomanip--cuántos-decimales-mostrar));
+   aquí no se usa a propósito.
 3. Las del ejercicio 1: el día se valida del 1 al 31 en cualquier mes y no se revisan
    fechas repetidas (las dos cuentan en las estadísticas).
 

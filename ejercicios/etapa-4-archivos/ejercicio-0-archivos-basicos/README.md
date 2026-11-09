@@ -199,7 +199,7 @@ struct Producto{
     int cantidad;
 };
 
-const int MAX = 10;   // cuantos productos caben en el arreglo
+const int MAX = 15;   // cuantos productos caben en el arreglo
 
 int main(){
 
@@ -292,8 +292,8 @@ Probados el 5 nov 2026 en macOS, compilando con `g++ -std=c++98 -Wall -Wextra` y
 *Pruébalo tú*. Los 8 pasos dan lo que dice la columna *Qué debe pasar*. Se supone que el
 producto es una sola palabra y la cantidad un número entero.
 
-Además, **cargar** sin `compras.txt` da `Se cargaron 0 productos` y, con un archivo de 12
-renglones, carga solo los primeros 10 (`MAX`) sin salirse del arreglo.
+Además, **cargar** sin `compras.txt` da `Se cargaron 0 productos` y, con un archivo de 17
+renglones, carga solo los primeros 15 (`MAX`) sin salirse del arreglo.
 
 ## Lo que estos programas no hacen (a propósito)
 

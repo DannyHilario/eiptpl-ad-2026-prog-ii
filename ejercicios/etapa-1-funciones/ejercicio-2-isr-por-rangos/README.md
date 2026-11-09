@@ -89,7 +89,7 @@ Cómo fue cambiando la solución de este ejercicio a lo largo del curso.
 | 22 sep 2026 | El ejercicio se movió a su propia carpeta y se agregó esta ficha. | Reorganización: cada ejercicio con su enunciado junto a su solución. |
 | 22 sep 2026 | Se quitó la variable `excedente`, que se declaraba en `main` pero nunca se usaba. | `g++ -Wall` avisaba `unused variable 'excedente'`: el excedente se calcula dentro de `calcularISR`, no en `main`. |
 
-**Este programa sigue creciendo en la Etapa II:** las 13 constantes se agrupan
+**Este programa sigue creciendo en la Etapa II:** las 11 constantes de la tabla se agrupan
 en arreglos en el
 [Ejercicio 3 de arreglos](../../etapa-2-arreglos/ejercicio-3-isr-con-arreglos/README.md),
 y en una matriz en el

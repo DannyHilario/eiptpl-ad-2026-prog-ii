@@ -38,7 +38,7 @@ double calcularSueldoNeto(double sueldo_bruto, double isr);
 
 const int DIAS_SEMANA = 7;
 
-const double MATRIZ_TABLA_ISR[3][4] {
+const double MATRIZ_TABLA_ISR[3][4] = {
     {0.01, 750.00, 45.00, 0.0257},
     {750.01, 2340.00, 119.00, 0.12},
     {2340.01, 0, 514.00, 0.2254}

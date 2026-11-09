@@ -56,5 +56,5 @@ int main(){
     cout << "Cantidad: " << cantidad_articulos << endl << endl;
     cout << "TOTAL A PAGAR: $" << total_a_pagar << endl << endl;
     cout << "__________________________________" << endl;
-    cout << "GRACIAS POR SU COMPRA Y ASI" << endl;
+    cout << "GRACIAS POR SU COMPRA" << endl;
 }

@@ -1,6 +1,6 @@
 # Ejercicio 7 — Registro de calificaciones con menú
 
-*Etapa II — Arreglos · Temas: 2.2 (matrices), 2.4 (recorrido con `for`) + vector paralelo · Solución: `etapa-2-ejercicio-7.cpp` (se escribe en clase)*
+*Etapa II — Arreglos · Temas: 2.2 (matrices), 2.4 (recorrido con `for`) + vector paralelo · Solución: [`etapa-2-ejercicio-7.cpp`](etapa-2-ejercicio-7.cpp)*
 
 ## Historia de usuario
 
@@ -179,3 +179,4 @@ parciales.
 | Fecha | Qué cambió | Por qué |
 |---|---|---|
 | 28 sep 2026 | Se creó esta ficha. La solución se escribe en clase. | Ejemplo guiado de la estructura de la Evidencia 2.2 (menú, matriz, vector paralelo y contador), a partir del Ejercicio 5. |
+| 8 nov 2026 | Se completó la solución a partir del esqueleto del menú escrito en clase. | Dejar el ejercicio resuelto en el repositorio de consulta. |
